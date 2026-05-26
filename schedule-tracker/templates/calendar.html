@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar Section</title>
+
+    <!-- FullCalendar Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/@fullcalendar/core@5.10.1/main.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@5.10.1/main.min.css" rel="stylesheet">
+
+    <!-- FullCalendar JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@5.10.1/main.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@5.10.1/main.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/interaction@5.10.1/main.min.js"></script>
+
+    <!-- Basic styling for the calendar -->
+    <style>
+        #calendar {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Calendar Placeholder -->
+    <div id='calendar'></div>
+
+    <!-- FullCalendar Initialization Script -->
+    <script>
+        // Calendar events passed from the server
+        var calendarData = {{ events | tojson | safe }};
+    
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log("DOMContentLoaded event triggered");
+            console.log("Event Data:", calendarData);  // Log to verify data is loaded
+            
+            var calendarEl = document.getElementById('calendar');
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth',
+                headerToolbar: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'dayGridMonth,dayGridWeek,dayGridDay'
+                },
+                events: calendarData,
+                editable: false,
+                displayEventTime: false
+            });
+            calendar.render();
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+/* Custom Colors */
+.bg-white {
+    background-color: white !important;
+}
+
+.text-dark {
+    color: #333 !important;
+}
+
+.btn-dark {
+    background-color: #000;
+    color: white;
+    border: 1px solid #000;
+    border-radius: 50px; /* Pill shape */
+    padding: 10px 20px; /* Adjust padding to give it a pill shape */
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Vertically center text */
+    justify-content: center; /* Horizontally center text */
+    text-transform: none; /* Optional: Prevent text transformation */
+}
+
+.btn-dark:hover {
+    background-color: #333;
+    color: white;
+}
+
+.tabs-wrapper {
+    margin-top: 20px;
+}
+
+/* Modify Tab Colors */
+.tabs .tab a {
+    color: #000;
+}
+
+.tabs .tab a:hover {
+    background-color: #f5f5f5;
+}
+
+/* Buttons with black color theme */
+.btn-outline-dark {
+    background-color: white;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 50px; /* Pill shape */
+    padding: 10px 20px; /* Adjust padding to give it a pill shape */
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Vertically center text */
+    justify-content: center; /* Horizontally center text */
+}
+
+.btn-outline-dark:hover {
+    background-color: #000;
+    color: white;
+}
+
+/* Close Button Styling */
+.close {
+    color: #000;
+}
+
+/* Sidebar Mobile Button */
+.sidenav-trigger i {
+    color: #000;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Console</title>
+
+    <!-- Materialize CSS CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/management_console.css') }}" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="nav-wrapper bg-white shadow-lg rounded-3">
+    <div class="container">
+        <a href="#" class="brand-logo center text-dark">Admin Console</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+            <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+            <li>
+                <form action="{{ url_for('logout') }}" method="post">
+                    <button class="btn btn-dark btn-sm rounded-pill btn-hover">Logout</button>
+                </form>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Sidebar for mobile -->
+<ul class="sidenav" id="mobile-nav">
+    <li>
+        <form action="{{ url_for('logout') }}" method="post">
+            <button class="btn btn-dark btn-sm rounded-pill btn-hover">Logout</button>
+        </form>
+    </li>
+</ul>
+
+<div class="container">
+    <!-- Flash Messages -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        <div class="row">
+            <div class="col s12">
+                {% for category, message in messages %}
+                    <div class="card-panel {{ category }} lighten-2 deep-purple lighten-1">
+                        <span class="black-text">{{ message }}</span>
+                        <button class="close material-icons right" onclick="this.parentElement.style.display='none'">close</button>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+    {% endwith %}
+
+    <!-- Tabs Navigation with a gap -->
+    <div class="tabs-wrapper row">
+        <div class="col s12">
+            <ul class="tabs bg-white z-depth-1">
+                <li class="tab col s4"><a href="#addAccess" class="text-dark">Modify Privilege</a></li>
+                <li class="tab col s4"><a href="#addTeam" class="text-dark">Add Team</a></li>
+                <li class="tab col s4"><a href="#addMember" class="text-dark">Add Member</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Tab Content -->
+    <div class="row">
+        <div id="addAccess" class="col s12 section-content">
+            <h5>Modify User Privilege</h5>
+            <form method="POST" action="{{ url_for('add_access') }}">
+                <div class="input-field">
+                    <input type="email" name="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-field">
+                    <select name="access" id="access" required>
+                        <option value="engineer">Engineer</option>
+                        <option value="manager">Manager</option>
+                        <option value="director">Director</option>
+                        <option value="admin">Admin</option>
+                    </select>
+                    <label for="access">Access Level</label>
+                </div>
+                <button type="submit" class="btn waves-effect waves-light btn-dark">Add User</button>
+            </form>
+        </div>
+
+        <div id="addTeam" class="col s12 section-content">
+            <h5>Add New Team</h5>
+            <form method="POST" action="{{ url_for('add_team') }}">
+                <div class="input-field">
+                    <input type="text" name="team" id="team" required>
+                    <label for="team">Team Name</label>
+                </div>
+                <div class="input-field">
+                    <select name="manager" id="manager" required>
+                        <option value="" disabled selected>Select Manager</option>
+                        {% for manager in managers %}
+                            <option value="{{ manager }}">{{ manager }}</option>
+                        {% endfor %}
+                    </select>
+                    <label for="manager">Manager</label>
+                </div>
+                <button type="submit" class="btn waves-effect waves-light btn-dark">Add Team</button>
+            </form>
+        </div>
+
+        <div id="addMember" class="col s12 section-content">
+            <h5>Add New Member</h5>
+            <form method="POST" action="{{ url_for('add_new_member') }}">
+                <div class="input-field">
+                    <input type="text" name="name" id="name" required>
+                    <label for="name">Name</label>
+                </div>
+                <div class="input-field">
+                    <input type="email" name="user_email" id="user_email" required>
+                    <label for="user_email">Email</label>
+                </div>
+                <div class="input-field">
+                    <input type="number" name="empid" id="empid" required>
+                    <label for="empid">Employee ID</label>
+                </div>
+                <div class="input-field">
+                    <select name="team" id="team">
+                        <option value="" disabled selected>Select Team</option>
+                        {% for team in teams %}
+                            <option value="{{ team }}">{{ team }}</option>
+                        {% endfor %}
+                    </select>
+                    <label for="team">Team</label>
+                </div>
+                <div class="input-field">
+                    <select name="position" id="position" required>
+                        <option value="" disabled selected>Select Position</option>
+                        <option value="Intern">Intern</option>
+                        <option value="Engineer1">Engineer1</option>
+                        <option value="Engineer2">Engineer2</option>
+                        <option value="Engineer3">Engineer3</option>
+                        <option value="Engineer4">Engineer4</option>
+                        <option value="Manager">Manager</option>
+                        <option value="Director">Director</option>
+                    </select>
+                    <label for="position">Position</label>
+                </div>
+                <button type="submit" class="btn waves-effect waves-light btn-dark">Add Member</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Materialize JS and Initialization -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        M.AutoInit();
+    });
+</script>
+
+</body>
+</html>

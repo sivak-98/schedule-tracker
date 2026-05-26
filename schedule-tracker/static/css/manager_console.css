@@ -1,0 +1,341 @@
+#team-calendar-view {
+    width: 100%;
+    height: 500px; /* or any height you need */
+}
+
+.fc {
+    width: 100% !important;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Reduced margin for spacing */
+    height: auto; /* Ensure height adapts to content */
+}
+
+.card-body {
+    padding: 10px; /* Reduce internal padding */
+}
+
+/* Ensuring vertical and horizontal centering */
+.col.s2 {
+    display: flex;
+    justify-content: center; /* Horizontally center the button */
+    align-items: center; /* Vertically center the button */
+    height: 100%; /* Full height of the container */
+}
+
+#download-report {
+    height: 100%; /* This ensures the button fills the available vertical space */
+    display: flex;
+    align-items: center; /* Vertically centers the icon */
+    justify-content: center; /* Horizontally centers the icon */
+    padding-left: 10px; /* Optional: Adjust the left padding if necessary */
+    padding-right: 10px; /* Optional: Adjust the right padding if necessary */
+}
+
+.card-title {
+    font-size: 1rem; /* Smaller font size */
+    margin-bottom: 10px;
+}
+
+/* Compact Form and Button Styling */
+.form-control,
+.btn {
+    font-size: 0.9rem; /* Smaller font size */
+    padding: 6px; /* Reduce padding for inputs and buttons */
+    margin-bottom: 8px; /* Reduce spacing between form elements */
+}
+
+/* Compact Table Styling */
+.table th,
+.table td {
+    font-size: 0.85rem; /* Smaller font size */
+    padding: 5px; /* Reduced padding */
+    text-align: center;
+}
+
+/* Main Content Styling */
+.main-content {
+    padding: 20px;
+}
+
+.tab-content {
+    padding-top: 20px;
+}
+
+/* Fix Tabs Layout */
+.nav-tabs {
+    margin-bottom: 20px;
+}
+
+.tab-pane {
+    padding-top: 20px;
+}
+
+/* Full-Width Calendar */
+#calendar, #team-calendar-view {
+    width: 100% !important;
+    min-height: 400px; /* Ensure proper height for month view */
+}
+
+/* Side-by-Side Layout */
+.side-by-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-by-side > .card {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.side-by-side > .card:last-child {
+    margin-right: 0;
+}
+
+/* Calendar Header Styling */
+.fc-toolbar-title {
+    font-size: 24px;
+}
+
+.fc-event-title {
+    font-size: 14px; /* Adjust as needed */
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+.fc-daygrid-day-number, .fc-daygrid-day-top {
+    font-size: 12px;
+}
+
+.fc-daygrid-day-name {
+    font-size: 16px;
+}
+
+.fc-event {
+    overflow: visible;
+    padding: 2px 5px;
+}
+
+/* Navbar Styling */
+.nav-wrapper {
+    background: #1976D2; /* Matching color for navbar */
+}
+
+.nav-wrapper a.brand-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.user-name {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.tabs a {
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.tabs a:hover {
+    background-color: #1565C0; /* Darker shade of blue */
+}
+
+/* Button Styling */
+.waves-effect.waves-light.btn {
+    background-color: #1565C0; /* Matching blue for primary buttons */
+    transition: background-color 0.3s ease;
+}
+
+.waves-effect.waves-light.btn:hover {
+    background-color: #0D47A1; /* Darker blue on hover */
+}
+
+.waves-effect.waves-light.btn-danger {
+    background-color: #f44336; /* Red for danger (logout) */
+}
+
+.waves-effect.waves-light.btn-danger:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+/* Card Hover Effect */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.input-field input, .input-field select {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Table Styling */
+table.striped td, table.striped th {
+    padding: 15px;
+    font-size: 1.1rem;
+}
+
+/* Footer Styling */
+footer {
+    background: #1976D2; /* Matching blue as navbar */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Spacing between Refresh and Logout Buttons */
+.nav-item {
+    margin-right: 15px;
+}
+
+/* Team Filter Styling */
+.team-filter {
+    margin-bottom: 20px;
+}
+
+/* Generate Report Tab Styling */
+.generate-report-card {
+    padding: 20px;
+}
+
+.bg-gradient-primary {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f1f1f1;
+    text-decoration: underline;
+}
+
+.btn-hover {
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
+}
+
+.btn-hover:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.shadow-lg {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.rounded-3 {
+    border-radius: 0.5rem;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+.bg-white {
+    background-color: white !important;
+  }
+
+  /* Navbar Text Color */
+  .navbar-light .navbar-nav .nav-link {
+    color: #333; /* Dark text for contrast on white background */
+    transition: all 0.3s ease;
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  /* Button Hover Effect */
+  .btn-hover {
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
+  }
+
+  .btn-hover:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Navbar Toggler Icon Color */
+  .navbar-toggler-icon {
+    background-color: black;
+  }
+
+  /* Rounded Button Style */
+  .rounded-pill {
+    border-radius: 50px !important;
+  }
+
+  /* Shadow Effect for Navbar */
+  .shadow-lg {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  #download-report {
+    background-color: #00695c; /* Matte black */
+    color: white; /* White text for contrast */
+    border: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-weight: bold;
+  }
+  .navbar-nav .nav-item button {
+    display: flex;             /* Use flexbox for centering */
+    align-items: center;       /* Vertically center the content */
+    justify-content: center;   /* Horizontally center the content */
+    height: 40px;              /* Set a fixed height for the button (adjust as needed) */
+    padding-left: 15px;        /* Adjust padding to make sure text is not too close to the edge */
+    padding-right: 15px;       /* Adjust padding */
+}
+
+
+  #download-report:hover {
+    background-color: #000; /* Darker black on hover */
+    color: #f1f1f1; /* Slightly lighter text on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Hover shadow */
+  }
+  
+  #download-report:active {
+    transform: scale(0.98); /* Pressed effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Smaller shadow on click */
+  }
+  
+  
+  /* Button Customization */
+  .btn-dark {
+    background-color: #000;
+    border: 1px solid #000;
+    color: white;
+  }
+
+  .btn-dark:hover {
+    background-color: #333;
+    color: white;
+  }
+
+  .btn-outline-dark {
+    border: 1px solid #000;
+    color: #000;
+  }
+
+  .btn-outline-dark:hover {
+    background-color: #000;
+    color: white;
+  }

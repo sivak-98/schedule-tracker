@@ -1,0 +1,4 @@
+image,latest_tag
+schedule-tracker/schedule-tracker/redis,v1
+schedule-tracker/schedule-tracker/mongo,v1
+schedule-tracker/schedule-tracker-app,v15

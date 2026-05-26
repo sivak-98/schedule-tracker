@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style data-fullcalendar=""></style><link href="static/demo-to-codepen.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js'></script>
+    <title>Team Calendar</title>
+</head>
+<body>
+    <script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+       var calendarEl = document.getElementById('calendar');
+       var calendar = new FullCalendar.Calendar(calendarEl, {
+       themeSystem: 'bootstrap5',
+       editable: true,
+       eventResize: function(info) {
+       alert(info.event.title + " end is now " + info.event.end.toISOString());
+        if (!confirm("is this okay?")) {
+        info.revert();
+        }
+        },
+        eventClick: function(info) {
+        alert('Event: ' + info.event.title);
+        // change the border color just for fun
+        info.el.style.borderColor = 'red';
+        },
+        height: 600,
+        contentHeight: 600,
+        headerToolbar: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'dayGridMonth,timeGridWeek,timeGridDay'
+                },
+
+        dateClick: function(info) {
+        alert('Date: ' + info.dateStr);
+        alert('Resource ID: ' + info.resource.id);
+        },
+        events : [
+        {% for event in events %}
+        {
+        title: "{{event.todo}}",
+        start: "{{event.date}}",
+        color: "{{ event.color }}",
+        },
+        {% endfor %}
+        ],
+        });
+        calendar.render();
+      });
+    </script>
+</body>
+<div id='calendar'></div>
+</html>

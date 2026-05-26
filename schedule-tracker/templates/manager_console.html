@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Manager Console</title>
+    <link href="static/icon/freewheel.png" rel="icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.11.2/main.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Include Material Design JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.11.2/main.min.js"></script>
+
+    <!-- Material Design for Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
+
+    <!-- FullCalendar CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.css" rel="stylesheet">
+
+    <!-- jQuery (required for FullCalendar) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- FullCalendar JS -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.js"></script>
+
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet" />
+    <link href="static/css/style.css" rel="stylesheet" />
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Flatpickr CSS & JS -->
+    <!-- Include Flatpickr CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+    <!-- Include Flatpickr JS -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="{{ url_for('static', filename='css/manager_console.css') }}" rel="stylesheet">
+    <!-- Custom Styles -->
+</head>
+<style>
+    .dataframe {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.dataframe th, .dataframe td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.dataframe th {
+    background-color: #f2f2f2;
+}
+    /* General table styles */
+    .striped {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+
+    .striped th, .striped td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #ddd;
+    }
+
+    .striped th {
+        background-color: #f2f2f2;
+        color: #333;
+    }
+
+    .striped tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    /* Schedule color classes */
+    .general-1 {
+        background-color: #d1e7dd; /* Light green */
+        color: #0f5132;
+    }
+
+    .general-2 {
+        background-color: #cfe2ff; /* Light blue */
+        color: #1c3f95;
+    }
+
+    .noon {
+        background-color: #fff3cd; /* Light yellow */
+        color: #856404;
+    }
+
+    .week-off {
+        background-color: #f8d7da; /* Light red */
+        color: #721c24;
+    }
+
+    .wfh {
+        background-color: #e2e3e5; /* Light gray */
+        color: #6c757d;
+    }
+
+    /* Event status color classes */
+    .approved {
+        color: #155724; /* Dark green */
+    }
+
+    .pending {
+        color: #856404; /* Dark yellow */
+    }
+
+    .denied {
+        color: #721c24; /* Dark red */
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-lg rounded-3">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="text-dark fw-bold" aria-current="page">{{ user.name }}</a>
+                        <!-- Displaying user's name -->
+                    </li>
+                     <li class="nav-item">
+                        <a
+                                class="text-dark fw-bold" aria-current="page">{{ user.position }}</a>
+                        <!-- Displaying user's name -->
+                    </li>
+                </ul>
+
+                <!-- Move Refresh and Logout buttons to the right with rounded shape and gap -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <button onclick="refreshPage()" class="btn btn-dark btn-sm rounded-pill btn-hover">
+                            Refresh
+                        </button>
+                    </li>
+
+                    <li class="nav-item">
+                        <form action="{{ url_for('logout')}}" method="post">
+                            <button type="submit" class="btn btn-dark btn-sm rounded-pill btn-hover">
+                                Logout
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Flash Message Container -->
+    {% with messages = get_flashed_messages(with_categories=true) %} {% if messages %}
+    <div class="container">
+        <div class="row">
+            {% for category, message in messages %}
+            <div class="col s12">
+                <div class="card-panel {{ 'green' if category == 'success' else 'red' }} lighten-2">
+                    <span class="white-text">{{ message }}</span>
+                    <!-- Close Button -->
+                    <a href="#" class="close-btn right white-text" onclick="this.closest('.card-panel').remove(); return false;">
+                        <i class="material-icons">close</i>
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %} {% endwith %}
+
+    <div class="main-content">
+        <section class="section">
+            <!-- Tabs for My Schedule, Team Calendar, Applied Events, etc. -->
+            <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active"
+                    id="dataframe-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#dataframe"
+                    type="button" role="tab"
+                    aria-controls="dataframe"
+                    aria-selected="true">SUMMARY</button>
+        </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link"
+                            id="add-schedule-tab"
+                            data-bs-toggle="tab"
+                            data-bs-target="#add-schedule" type="button" role="tab" aria-controls="add-schedule" aria-selected="false">ADD SCHEDULE</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="team-calendar-tab" data-bs-toggle="tab" data-bs-target="#team-calendar" type="button" role="tab" aria-controls="team-calendar" aria-selected="false">Team Calendar</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="approvals-tab" data-bs-toggle="tab" data-bs-target="#approvals" type="button" role="tab" aria-controls="approvals" aria-selected="false">Approvals</button>
+                </li>
+                <!--<li class="nav-item" role="presentation">
+          <button class="nav-link" id="generate-report-tab" data-bs-toggle="tab" data-bs-target="#generate-report" type="button" role="tab" aria-controls="generate-report" aria-selected="false">Generate Report</button>
+      </li>-->
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="management-console-tab" data-bs-toggle="tab" data-bs-target="#management-console" type="button" role="tab" aria-controls="management-console" aria-selected="false">Management Console</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+
+               <div class="tab-pane fade" id="add-schedule" role="tabpanel" aria-labelledby="add-schedule-tab">
+                    <div class="card" style="max-width: 1200px; margin: 0 auto; padding: 50px;">
+                        <!-- Reduced width and added margin auto for centering -->
+                        <div class="card-content">
+                            <form action="{{ url_for('add_schedule') }}" method="post">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input type="date" id="startdate" name="startdate" required />
+                                        <label for="startdate">Start Date</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <input type="date" id="enddate" name="enddate" required />
+                                        <label for="enddate">End Date</label>
+                                    </div>
+                                </div>
+
+                                <div class="row team-filter">
+                                    <div class="input-field col s12">
+                                        <select id="team-filter" required>
+                                            <option value="" disabled selected>Select Team</option>
+                                            {% for team in teams %}
+                                            <option value="{{ team }}">{{ team }}</option>
+                                            {% endfor %}
+                                        </select>
+                                        <label for="team-filter">Select Team</label>
+                                    </div>
+                                </div>
+
+                                <!-- Table of Users -->
+                                <table class="striped responsive-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Select</th>
+                                            <th>User</th>
+                                            <th>Team</th>
+                                            <th>Shift</th>
+                                            <th>Week Off Dates</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for user in users %}
+                                        <tr class="user-row {{ user.team.replace(' ', '_') }}" style="display:none;">
+                                            <td>
+                                                <label>
+                                                    <input type="checkbox" name="selected_users" value="{{ user.name }}" /><span></span></label>
+                                            </td>
+                                            <td>{{ user.name }}</td>
+                                            <td>{{ user.team }}</td>
+                                            <td>
+                                                <select name="schedule_{{ user.name }}" class="browser-default">
+                                                    <option value="General-1">General-1</option>
+                                                    <option value="General-2">General-2</option>
+                                                    <option value="Morning">Morning</option>
+                                                    <option value="Noon">Noon</option>
+                                                    <option value="Night">Night</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <div class="row">
+                                                    <div class="input-field col s12">
+                                                        <!-- Use Flatpickr for date range -->
+                                                        <input type="text" id="weekoff_{{ user.name }}" name="weekoff_{{ user.name }}" class="datepicker-range" />
+                                                        <label for="weekoff_{{ user.name }}">Select Week Off Dates</label>
+
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+
+                                <script>
+                                    document.addEventListener('DOMContentLoaded', function () {
+                                    // Initialize Flatpickr for range selection
+                                    flatpickr(".datepicker-range", {
+                                        mode: "multiple",           // Enable multiple date selection
+                                        dateFormat: "Y-m-d",        // Format for backend compatibility
+                                        onChange: function(selectedDates, dateStr, instance) {
+                                            // Triggered whenever a date is selected
+                                            console.log('Selected Dates:', selectedDates);
+                                        },
+                                        onMonthChange: function(selectedDates, dateStr, instance) {
+                                            // Called when the month is changed (via Next/Previous buttons)
+                                            updateCalendarTitle(instance);
+                                        },
+                                        onYearChange: function(selectedDates, dateStr, instance) {
+                                            // Called when the year is changed
+                                            updateCalendarTitle(instance);
+                                        },
+                                        onReady: function(selectedDates, dateStr, instance) {
+                                            // Update the calendar title on initial load
+                                            updateCalendarTitle(instance);
+                                        }
+                                    });
+
+                                    // Helper function to update the calendar's title dynamically
+                                    function updateCalendarTitle(instance) {
+                                        const monthNames = [
+                                            "January", "February", "March", "April", "May", "June",
+                                            "July", "August", "September", "October", "November", "December"
+                                        ];
+                                        const calendarContainer = instance.calendarContainer;
+
+                                        if (calendarContainer) {
+                                            const month = instance.currentMonth; // 0-based index
+                                            const year = instance.currentYear;
+
+                                            // Update the title within the Flatpickr container
+                                            const titleElement = calendarContainer.querySelector('.flatpickr-current-month');
+                                            if (titleElement) {
+                                                titleElement.innerHTML = `
+                                                    <span class="cur-month">${monthNames[month]}</span>
+                                                    <span class="numInput cur-year">${year}</span>
+                                                `;
+                                            }
+                                        }
+                                    }
+
+                                    // Initialize Materialize select for team filter
+                                    M.FormSelect.init(document.querySelectorAll('select'));
+                                });
+
+                                </script>
+
+                                <!-- Center the Submit Button -->
+                                <div class="center-align">
+                                    <button type="submit" class="btn btn-dark btn-sm rounded-pill btn-hover">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="team-calendar" role="tabpanel" aria-labelledby="team-calendar-tab">
+                    <div class="card mb-4 z-depth-3">
+                        <div class="card-content">
+                            <span class="card-title">Team Calendar</span>
+
+                            <!-- Filters Row -->
+                            <div class="row">
+                                <!-- Team Filter -->
+                                <div class="input-field col s5">
+                                    <select id="team-calendar-filter">
+                                        <option value="" disabled selected>All Teams</option>
+                                        <!-- Team options will be dynamically populated here -->
+                                    </select>
+                                    <label for="team-calendar-filter">Filter by Team</label>
+                                </div>
+
+                                <!-- User Filter -->
+                                <div class="input-field col s5">
+                                    <select id="user-calendar-filter">
+                                        <option value="" disabled selected>All Users</option>
+                                        <!-- User options will be dynamically populated here -->
+                                    </select>
+                                    <label for="user-calendar-filter">Filter by User</label>
+                                </div>
+
+                                <!-- Download Report Button -->
+                                <div class="col s2">
+                                    <button id="download-report" class="btn btn-dark btn-sm rounded-pill btn-hover">
+                                        <i class="material-icons left">download</i>Download
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Team Calendar View -->
+                            <div id="team-calendar-view" style="height: 600px;"></div>
+                        </div>
+                    </div>
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function () {
+                            const teamCalendarTab = document.getElementById('team-calendar-tab');
+                            const calendarEl = document.getElementById('team-calendar-view');
+                            const downloadButton = document.getElementById('download-report');
+
+                            // Initialize Materialize Select
+                            M.FormSelect.init(document.querySelectorAll('select'));
+
+                            teamCalendarTab.addEventListener('shown.bs.tab', function () {
+                              if (!calendarEl.innerHTML) {
+                                var eventsData = {{ calendar_events|tojson }}; // Ensure this is passed correctly from Flask
+
+                                // Functions to extract unique teams and users
+                                function getUniqueTeams(events) {
+                                  return [...new Set(events.map(event => event.team))];
+                                }
+
+                                function getUniqueUsers(events) {
+                                  return [...new Set(events.map(event => event.user))];
+                                }
+
+                                var uniqueTeams = getUniqueTeams(eventsData);
+                                var uniqueUsers = getUniqueUsers(eventsData);
+
+                                // Populate Team Filter
+                                var teamCalendarFilter = document.getElementById('team-calendar-filter');
+                                uniqueTeams.forEach(function (team) {
+                                  var option = document.createElement('option');
+                                  option.value = team;
+                                  option.textContent = team;
+                                  teamCalendarFilter.appendChild(option);
+                                });
+                                M.FormSelect.init(teamCalendarFilter); // Re-initialize Materialize select
+
+                                // Populate User Filter
+                                var userCalendarFilter = document.getElementById('user-calendar-filter');
+                                uniqueUsers.forEach(function (user) {
+                                  var option = document.createElement('option');
+                                  option.value = user;
+                                  option.textContent = user;
+                                  userCalendarFilter.appendChild(option);
+                                });
+                                M.FormSelect.init(userCalendarFilter); // Re-initialize Materialize select
+
+                                // Initialize FullCalendar
+                                var calendar = new FullCalendar.Calendar(calendarEl, {
+                                  initialView: 'dayGridMonth',
+                                  themeSystem: 'bootstrap',
+                                  headerToolbar: {
+                                    start: 'title',
+                                    center: '',
+                                    end: 'prev today next',
+                                  },
+                                  events: eventsData,
+                                  eventClassNames: 'z-depth-1 rounded', // Add Material style to events
+                                  eventClick: function (info) {
+                                    M.toast({ html: `Event: ${info.event.title}<br>Date: ${info.event.start.toLocaleDateString()}<br>Description: ${info.event.extendedProps.description || 'No description available'}` });
+                                  },
+                                });
+
+                                // Render the calendar
+                                calendar.render();
+
+                                // Filter events on Team/User selection
+                                function filterEvents() {
+                                  var selectedTeam = teamCalendarFilter.value;
+                                  var selectedUser = userCalendarFilter.value;
+
+                                  var filteredEvents = eventsData.filter(function (event) {
+                                    return (!selectedTeam || event.team === selectedTeam) &&
+                                          (!selectedUser || event.user === selectedUser);
+                                  });
+
+                                  calendar.removeAllEvents();
+                                  calendar.addEventSource(filteredEvents);
+                                }
+
+                                teamCalendarFilter.addEventListener('change', filterEvents);
+                                userCalendarFilter.addEventListener('change', filterEvents);
+
+                                // Download Report Functionality for Current Month
+                                downloadButton.addEventListener('click', function () {
+                                  var calendarDate = calendar.getDate(); // Get the currently displayed date
+                                  var startOfMonth = new Date(calendarDate.getFullYear(), calendarDate.getMonth(), 1);
+                                  var endOfMonth = new Date(calendarDate.getFullYear(), calendarDate.getMonth() + 1, 0);
+
+                                  // Get events within the current month
+                                  var filteredEvents = calendar.getEvents().filter(function (event) {
+                                    return event.start >= startOfMonth && event.start <= endOfMonth;
+                                  }).map(function (event) {
+                                    return {
+                                      Date: event.start.toLocaleDateString(),
+                                      Team: event.extendedProps.team || 'N/A',
+                                      User: event.extendedProps.user || 'N/A',
+                                      Shift: event.title.includes(':') ? event.title.split(':')[1].trim() : event.title, // Extract text after colon
+                                    };
+                                  });
+
+                                  if (filteredEvents.length === 0) {
+                                    M.toast({ html: 'No events available for the selected month.' });
+                                    return;
+                                  }
+
+                                  // Generate and download the Excel file
+                                  var worksheet = XLSX.utils.json_to_sheet(filteredEvents);
+                                  var workbook = XLSX.utils.book_new();
+                                  XLSX.utils.book_append_sheet(workbook, worksheet, 'Events Report');
+                                  XLSX.writeFile(workbook, 'Team_Calendar_Report_Current_Month.xlsx');
+                                });
+                              }
+                            });
+                          });
+                    </script>
+
+                </div>
+                <!-- Approvals Tab -->
+                <div class="tab-pane fade" id="approvals" role="tabpanel" aria-labelledby="approvals-tab">
+    <div class="card mb-4" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+        <div class="card-body">
+            <form action="{{ url_for('approvals') }}" method="POST">
+                <table class="table table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>User</th>
+                            <th>Team</th>
+                            <th>Option</th>
+                            <th>Date</th>
+                            <th>Need</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in event_requests %}
+                        <tr>
+                            <td>
+                                <input type="hidden" name="user_{{ loop.index }}" value="{{ row.user }}">
+                                {{ row.user }}
+                            </td>
+                            <td>{{ row.team }}</td>
+                            <td>{{ row.option }}</td>
+                            <td>
+                                <input type="hidden" name="date_{{ loop.index }}" value="{{ row.date }}">
+                                {{ row.date }}
+                            </td>
+                            <td>{{ row.comment }}</td>
+                            <td>
+                                <select name="status_{{ loop.index }}" class="form-control" required>
+                                    <option value="" disabled selected>Choose Action</option>
+                                    <option value="approved">Approve</option>
+                                    <option value="denied">Deny</option>
+                                    <option value="pending">Pending</option>
+                                </select>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                <button type="submit" class="btn btn-primary mt-2">Submit</button>
+                <!-- Hidden field to store the total number of rows -->
+                <input type="hidden" name="total_rows" value="{{ event_requests|length }}">
+            </form>
+        </div>
+    </div>
+</div>
+                <!-- Modify Privilege Tab -->
+                <div class="tab-pane fade" id="management-console" role="tabpanel" aria-labelledby="management-console-tab">
+                    <div class="card mb-4" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+                        <!-- Reduced width and added margin auto for centering -->
+                        <div class="card-body">
+                            <!-- Tabs Navigation -->
+                            <div class="tabs-wrapper row">
+                                <div class="col s12">
+                                    <ul class="tabs z-depth-1">
+                                        <li class="tab col s4"><a href="#addAccess" class="text-dark">Modify Privilege</a></li>
+                                        <li class="tab col s4"><a href="#addTeam" class="text-dark">Add Team</a></li>
+                                        <li class="tab col s4"><a href="#addMember" class="text-dark">Add Member</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Tab Content -->
+
+                            <!-- Modify User Privilege Tab -->
+                            <div id="addAccess" class="col s12 section-content">
+                                <form method="POST" action="{{ url_for('add_access') }}">
+                                    <div class="input-field">
+                                        <input type="email" name="email" id="email" required>
+                                        <label for="email">Email</label>
+                                    </div>
+                                    <div class="input-field">
+                                        <select name="access" id="access" required>
+                                            <option value="engineer">Engineer</option>
+                                            <option value="manager">Manager</option>
+                                            <option value="director">Director</option>
+                                            <option value="admin">Admin</option>
+                                        </select>
+                                        <label for="access">Access Level</label>
+                                    </div>
+                                    <div class="d-flex justify-content-center mt-3">
+                                        <!-- Centering the button -->
+                                        <button type="submit" class="btn btn-dark btn-sm rounded-pill btn-hover">Change Privilege</button>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <!-- Add Team Tab -->
+                            <div id="addTeam" class="col s12 section-content">
+                                <form method="POST" action="{{ url_for('add_team') }}">
+                                    <div class="input-field">
+                                        <input
+                                                type="text" name="team" id="team_id" required>
+                                        <label for="team">Team Name</label>
+                                    </div>
+                                    <div class="input-field">
+                                        <select name="manager" id="manager" required>
+                                            <option value="" disabled selected>Select Manager</option>
+                                            {% for manager in managers %}
+                                            <option value="{{ manager }}">{{ manager }}</option>
+                                            {% endfor %}
+                                        </select>
+                                        <label for="manager">Manager</label>
+                                    </div>
+                                    <div class="d-flex justify-content-center mt-3">
+                                        <!-- Centering the button -->
+                                        <button type="submit" class="btn btn-dark btn-sm rounded-pill btn-hover">Add Team</button>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <!-- Add Member Tab -->
+                            <div id="addMember" class="col s12 section-content">
+                                <form method="POST" action="{{ url_for('add_new_member') }}">
+                                    <div class="input-field">
+                                        <input type="text" name="name" id="name" required>
+                                        <label for="name">Name</label>
+                                    </div>
+                                    <div class="input-field">
+                                        <input type="email" name="user_email" id="user_email" required>
+                                        <label for="user_email">Email</label>
+                                    </div>
+                                    <div class="input-field">
+                                        <input type="number" name="empid" id="empid" required>
+                                        <label for="empid">Employee ID</label>
+                                    </div>
+                                    <div class="input-field">
+                                        <select name="team" id="team">
+                                            <option value="" disabled selected>Select Team</option>
+                                            {% for team in teams %}
+                                            <option value="{{ team }}">{{ team }}</option>
+                                            {% endfor %}
+                                        </select>
+                                        <label for="team">Team</label>
+                                    </div>
+                                    <div class="input-field">
+                                        <select name="position" id="position" required>
+                                            <option value="" disabled selected>Select Position</option>
+                                            <option value="Intern">Intern</option>
+                                            <option value="Engineer1">Engineer1</option>
+                                            <option value="Engineer2">Engineer2</option>
+                                            <option value="Engineer3">Engineer3</option>
+                                            <option value="Engineer4">Engineer4</option>
+                                            <option value="Manager">Manager</option>
+                                            <option value="Director">Director</option>
+                                        </select>
+                                        <label for="position">Position</label>
+                                    </div>
+                                    <div class="d-flex justify-content-center mt-3">
+                                        <!-- Centering the button -->
+                                        <button type="submit" class="btn btn-dark btn-sm rounded-pill btn-hover">Add Member</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Materialize JS and Initialization -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                          M.AutoInit();
+                      });
+                </script>
+
+            </div>
+        </section>
+    </div>
+    <!-- Initialize Materialize Tabs -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.tabs');
+          M.Tabs.init(elems);
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          // Initialize Materialize select elements
+          var selectElems = document.querySelectorAll('select');
+          M.FormSelect.init(selectElems);
+
+          // Team filter logic
+          var teamFilter = document.getElementById('team-filter');
+          if (teamFilter) {
+            teamFilter.addEventListener('change', function() {
+              var selectedTeam = this.value.replace(/\s+/g, '-'); // Normalize selected team
+              var rows = document.querySelectorAll('.user-row');
+
+              rows.forEach(function(row) {
+                if (selectedTeam === 'all' || row.classList.contains(selectedTeam)) {
+                  row.style.display = ''; // Show matching rows
+                } else {
+                  row.style.display = 'none'; // Hide non-matching rows
+                }
+              });
+            });
+          }
+        });
+    </script>
+    <script>
+    let currentDate = new Date(); // Initialize with the current date
+
+    function updateTable() {
+        // Update the displayed week
+        const weekNumber = getWeekNumber(currentDate);
+        const year = currentDate.getFullYear();
+        document.getElementById("currentWeek").textContent = `Week ${weekNumber} of ${year}`;
+
+        // Fetch or filter the data for the current week
+        // This is where you would implement the logic to update the table based on the current week
+        // For example, you might make an AJAX call to your Flask backend to get the data
+        // and then update the inner HTML of the dataTableContainer with the new data.
+
+        // Example: Update the table content based on the current week
+        // This is a placeholder for your actual data filtering logic
+        console.log("Displaying data for:", year, "Week", weekNumber);
+    }
+
+    function changeWeek(direction) {
+        currentDate.setDate(currentDate.getDate() + (direction * 7)); // Move by 7 days
+        updateTable();
+    }
+
+    function getWeekNumber(d) {
+        // Create a new date object to avoid modifying the original date
+        const date = new Date(d);
+        // Set to the first day of the year
+        date.setHours(0, 0, 0, 0);
+        date .setDate(date.getDate() + 4 - (date.getDay() || 7)); // Adjust to Thursday
+        const yearStart = new Date(date.getFullYear(), 0, 1);
+        return Math.ceil((((date - yearStart) / 86400000) + 1) / 7); // Calculate week number
+    }
+
+    // Initial call to set the current week on page load
+    updateTable();
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

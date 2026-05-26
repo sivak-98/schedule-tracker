@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>User Console</title>
+  <link href="static/icon/freewheel.png" rel="icon" />
+
+  <!-- Material Design for Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
+  <link href="{{ url_for('static', filename='css/user_console.css') }}" rel="stylesheet">
+  <!-- Custom CSS -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js'></script>
+</head>
+<body>
+
+  <!-- Flash message display -->
+  {% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    {% for category, message in messages %}
+      <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+        {{ message }}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    {% endfor %}
+  {% endif %}
+{% endwith %}
+
+  <!-- Navbar with Material Design -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page">{{ user.name }}</a> <!-- Displaying user's name -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page">{{ user.email }}</a> <!-- Displaying user's email -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page">{{ user.empid }}</a> <!-- Displaying user's empid -->
+          </li>
+        </ul>
+
+        <!-- Move Refresh and Logout buttons to the right with rounded shape and gap -->
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <button onclick="refreshPage()" class="btn btn-dark btn-sm rounded-pill btn-hover">
+              Refresh
+            </button>
+          </li>
+          <li class="nav-item">
+            <form action="{{ url_for('logout')}}" method="post">
+              <button type="submit" class="btn btn-dark btn-sm rounded-pill btn-hover">
+                Logout
+              </button>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <section class="section">
+      <!-- Tabs for My Schedule, Team Calendar, Applied Events, etc. -->
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="my-schedule-tab" data-bs-toggle="tab" data-bs-target="#my-schedule" type="button" role="tab" aria-controls="my-schedule" aria-selected="true">My Schedule</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="team-calendar-tab" data-bs-toggle="tab" data-bs-target="#team-calendar" type="button" role="tab" aria-controls="team-calendar" aria-selected="false">Team Calendar</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="events-tab" data-bs-toggle="tab" data-bs-target="#events" type="button" role="tab" aria-controls="events" aria-selected="false">Leave / WFH</button>
+        </li>
+      </ul>
+
+      <div class="tab-content" id="myTabContent" >
+<!-- My Schedule Tab -->
+<div class="tab-pane fade show active" id="my-schedule" role="tabpanel" aria-labelledby="my-schedule-tab">
+  <div class="card mb-4">
+    <div class="card-body">
+      <div id='calendar' class="custom-calendar"></div>
+      <!-- Script to Initialize Calendars -->
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var calendarEl = document.getElementById('calendar');
+          var calendar = new FullCalendar.Calendar(calendarEl, {
+            initialView: 'dayGridMonth',
+            height: 'auto', // Dynamic height
+            events: {{ events|tojson }},
+            eventClick: function(info) {
+              alert(
+                'Event: ' + info.event.title +
+                '\nDate: ' + info.event.start.toLocaleString() +
+                '\nDescription: ' + (info.event.extendedProps.description || 'No description available')
+              );
+            },
+            dateClick: function(info) {
+              var clickedDate = info.dateStr; // Get the clicked date in YYYY-MM-DD format
+              var eventsForTheDay = calendar.getEvents().filter(function(event) {
+                return event.start.toISOString().split('T')[0] === clickedDate;
+              });
+
+              if (eventsForTheDay.length > 0) {
+                var eventList = 'Events for ' + clickedDate + ':\n\n';
+                eventsForTheDay.forEach(function(event) {
+                  eventList += 'Title: ' + event.title + '\n';
+                  eventList += 'Time: ' + event.start.toLocaleTimeString() + '\n';
+                  eventList += 'Description: ' + (event.extendedProps.description || 'No description available') + '\n\n';
+                });
+                alert(eventList);
+              } else {
+                alert('No events for ' + clickedDate);
+              }
+            }
+          });
+
+          calendar.render();
+        });
+      </script>
+    </div>
+  </div>
+</div>
+
+<!-- Team Calendar Tab -->
+<div class="tab-pane fade" id="team-calendar" role="tabpanel" aria-labelledby="team-calendar-tab">
+  <div class="card mb-4">
+    <div class="card-body">
+      <!-- Filters Row -->
+      <div class="row">
+        <!-- Team Filter -->
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="team-calendar-filter">Filter by Team:</label>
+            <select id="team-calendar-filter" class="form-control">
+              <option value="">All Teams</option>
+              <!-- Team options will be dynamically populated here -->
+            </select>
+          </div>
+        </div>
+
+        <!-- User Filter -->
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="user-calendar-filter">Filter by User:</label>
+            <select id="user-calendar-filter" class="form-control">
+              <option value="">All Users</option>
+              <!-- User options will be dynamically populated here -->
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team Calendar View -->
+      <div id="team-calendar-view" style="height: 600px;"></div>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+  const teamCalendarTab = document.getElementById('team-calendar-tab');
+  const calendarEl = document.getElementById('team-calendar-view');
+
+  // Event listener to initialize the calendar when the tab is shown
+  teamCalendarTab.addEventListener('shown.bs.tab', function () {
+    if (!calendarEl.innerHTML) {
+      var eventsData = {{ calendar_events|tojson }}; // Make sure this variable is passed correctly from Flask
+
+      // Function to get unique teams from events data
+      function getUniqueTeams(events) {
+        var teams = new Set();
+        events.forEach(function(event) {
+          teams.add(event.team);
+        });
+        return Array.from(teams); // Convert set to array
+      }
+
+      // Function to get unique users from events data
+      function getUniqueUsers(events) {
+        var users = new Set();
+        events.forEach(function(event) {
+          users.add(event.user);  // Assuming each event has a user field
+        });
+        return Array.from(users); // Convert set to array
+      }
+
+      var uniqueTeams = getUniqueTeams(eventsData);
+      var uniqueUsers = getUniqueUsers(eventsData);
+
+      // Team Filter
+      var teamCalendarFilter = document.getElementById('team-calendar-filter');
+      uniqueTeams.forEach(function(team) {
+        var option = document.createElement('option');
+        option.value = team;
+        option.textContent = team;
+        teamCalendarFilter.appendChild(option);
+      });
+
+      // User Filter
+      var userCalendarFilter = document.getElementById('user-calendar-filter');
+      uniqueUsers.forEach(function(user) {
+        var option = document.createElement('option');
+        option.value = user;
+        option.textContent = user;
+        userCalendarFilter.appendChild(option);
+      });
+
+      // Initialize FullCalendar
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth',
+        events: eventsData, // Initially show all events
+        eventClick: function(info) {
+          alert('Event: ' + info.event.title + '\nDate: ' + info.event.start.toLocaleString() + '\nDescription: ' + (info.event.extendedProps.description || 'No description available'));
+        },
+        eventRender: function(info) {
+          // Event render callback to display all events for a day
+          const eventsForDay = eventsData.filter(event => {
+            return event.start === info.event.start.toISOString().split('T')[0]; // Match events for the same day
+          });
+
+          if (eventsForDay.length > 0) {
+            // You can customize the display of events for the day here, e.g., showing a list
+            console.log(eventsForDay);
+          }
+        }
+      });
+
+      // Render the calendar
+      calendar.render();
+      calendar.updateSize(); // Ensure correct size on render
+
+      // Filter events by selected team and user
+      teamCalendarFilter.addEventListener('change', function() {
+        var selectedTeam = this.value;
+        var selectedUser = document.getElementById('user-calendar-filter').value;
+
+        var filteredEvents = eventsData.filter(function(event) {
+          return (!selectedTeam || event.team === selectedTeam) &&
+                 (!selectedUser || event.user === selectedUser);
+        });
+
+        // Remove existing events and add the filtered ones
+        calendar.removeAllEvents();
+        calendar.addEventSource(filteredEvents);
+      });
+
+      userCalendarFilter.addEventListener('change', function() {
+        var selectedUser = this.value;
+        var selectedTeam = document.getElementById('team-calendar-filter').value;
+
+        var filteredEvents = eventsData.filter(function(event) {
+          return (!selectedTeam || event.team === selectedTeam) &&
+                 (!selectedUser || event.user === selectedUser);
+        });
+
+        // Remove existing events and add the filtered ones
+        calendar.removeAllEvents();
+        calendar.addEventSource(filteredEvents);
+      });
+    }
+  });
+});
+
+      </script>
+    </div>
+  </div>
+</div>
+
+
+
+
+        <!-- Combined Applied Events and Leave/WFH Tab -->
+        <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="events-tab">
+          <!-- Side by side layout -->
+          <div class="side-by-side">
+            <!-- Leave / WFH Form -->
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">APPLY LEAVE / WFH</h5>
+                <form action="{{ url_for('apply_event') }}" method="post">
+                  <div class="w-20 p-3">
+                    <input type="hidden" name="email" value="{{ user.email }}">
+                    <input type="hidden" name="name" value="{{ user.name }}">
+                    <input type="hidden" name="team" value="{{ user.team }}">
+                    <label for="date" class="form-label">Date</label>
+                    <input type="date" id="date" name="date" class="form-control" required>
+                    <label for="event" class="form-label">Option</label>
+                    <select name="event" id="event" class="form-select" required>
+                      <option value="WFH">WFH</option>
+                      <option value="Leave">LEAVE</option>
+                    </select>
+                    <label for="comment" class="form-label">Comment</label>
+                    <input type="text" id="comment" name="comment" class="form-control" required>
+                    <input type="submit" value="Submit Request" class="btn btn-primary form-control">
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <!-- Applied Events -->
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">My Leave / WFH</h5>
+                <div class="table-responsive">
+                  <table class="table table-bordered table-hover text-center align-middle">
+                    <thead class="bg-primary text-white">
+                      <tr>
+                        <th>Option</th>
+                        <th>Month</th>
+                        <th>Count</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {% for item in aggregated_leaves if
+                      item.Option and item.Month and
+                      item.Count %}
+                      <tr>
+                        <td>{{ item.Option }}</td>
+                        <td>{{ item.Month }}</td>
+                        <td>{{ item.Count }}</td>
+                      </tr>
+                      {% endfor %}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+  <!-- MDB and Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha1/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+
+</body>
+</html>

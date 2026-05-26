@@ -1,0 +1,1336 @@
+2025-01-28 07:09:44,839 - DEBUG - Failed to connect to MongoDB server mongodb://:@:27017/mongoDb: The empty string is not valid username.
+2025-01-28 07:09:45,000 - DEBUG - Attempting to connect to fallback MongoDB server mongodb://localhost:27017/mongoDb
+2025-01-28 07:09:50,012 - DEBUG - Failed to connect to fallback MongoDB server mongodb://localhost:27017/mongoDb: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 679882b8ff86b817f3eb5392, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-01-28 07:12:55,555 - DEBUG - Failed to connect to MongoDB server mongodb://:@:27017/mongoDb: The empty string is not valid username.
+2025-01-28 07:12:55,568 - DEBUG - Attempting to connect to fallback MongoDB server mongodb://localhost:27017/mongoDb
+2025-01-28 07:13:00,579 - DEBUG - Failed to connect to fallback MongoDB server mongodb://localhost:27017/mongoDb: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 679883770947019f48728c12, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-01-28 12:43:55,520 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 12:44:04,206 - DEBUG - Failed to connect to MongoDB server mongodb://:@:27017/mongoDb: The empty string is not valid username.
+2025-01-28 12:44:04,214 - DEBUG - Attempting to connect to fallback MongoDB server mongodb://localhost:27017/mongoDb
+2025-01-28 12:44:09,275 - DEBUG - Failed to connect to fallback MongoDB server mongodb://localhost:27017/mongoDb: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 679883bcc9e1a5ba2adcea8f, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-01-28 12:46:09,802 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 12:46:52,539 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 12:50:44,910 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 12:51:55,482 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 12:53:49,866 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 12:55:41,740 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 12:55:53,783 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 13:01:39,748 - DEBUG - Failed to connect to MongoDB server mongodb://:@:27017/mongoDb: The empty string is not valid username.
+2025-01-28 13:01:39,758 - DEBUG - Attempting to connect to fallback MongoDB server mongodb://localhost:27017/mongoDb
+2025-01-28 13:01:44,820 - DEBUG - Failed to connect to fallback MongoDB server mongodb://localhost:27017/mongoDb: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 679887dbf7f4fb96814e55a3, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-01-28 13:01:46,268 - DEBUG - Failed to connect to MongoDB server mongodb://:@:27017/mongoDb: The empty string is not valid username.
+2025-01-28 13:01:46,277 - DEBUG - Attempting to connect to fallback MongoDB server mongodb://localhost:27017/mongoDb
+2025-01-28 13:01:51,374 - DEBUG - Failed to connect to fallback MongoDB server mongodb://localhost:27017/mongoDb: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 679887e20ae061821545b25f, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-01-28 13:02:49,872 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 13:02:52,721 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 13:03:54,427 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 13:03:57,449 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 13:04:25,612 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 13:10:05,974 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 13:10:09,089 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 13:11:24,371 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 13:11:27,476 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 13:14:17,802 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 13:14:20,638 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 13:17:08,992 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 13:17:11,104 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 13:17:11,104 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 13:17:11,105 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:11,105 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:11,587 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 13:17:11,587 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 13:17:11,589 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:11,589 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:12,049 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 13:17:12,049 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 13:17:12,049 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:12,049 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:12,510 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 13:17:12,510 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 13:17:12,510 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:12,510 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:12,972 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 13:17:12,972 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 13:17:12,973 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:12,973 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:13,434 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 13:17:13,434 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 13:17:13,434 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:13,434 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:13,897 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 13:17:13,897 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 13:17:13,898 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:13,898 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:14,361 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 13:17:14,361 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 13:17:14,362 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:14,362 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:14,871 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 13:17:14,871 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 13:17:14,872 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:14,872 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:15,350 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 13:17:15,350 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 13:17:15,350 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:15,350 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:15,890 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 13:17:15,890 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 13:17:15,891 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:15,891 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:16,402 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 13:17:16,402 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 13:17:16,403 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:16,403 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:16,918 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 13:17:16,918 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 13:17:16,919 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:16,919 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:17,398 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 13:17:17,398 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 13:17:17,399 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:17,399 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:17,944 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 13:17:17,944 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 13:17:17,947 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:17,947 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:18,451 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 13:17:18,451 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 13:17:18,452 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:18,452 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:18,961 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 13:17:18,961 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 13:17:18,961 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:18,961 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:19,575 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 13:17:19,575 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 13:17:19,576 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:19,576 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:20,042 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 13:17:20,042 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 13:17:20,043 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:20,043 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:20,044 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 13:17:20,044 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 13:17:22,438 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 13:17:24,876 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 13:17:24,876 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 13:17:24,876 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:24,876 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:25,338 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 13:17:25,338 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 13:17:25,338 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:25,338 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:25,803 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 13:17:25,803 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 13:17:25,803 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:25,803 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:26,334 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 13:17:26,334 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 13:17:26,334 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:26,334 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:26,819 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 13:17:26,819 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 13:17:26,820 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:26,820 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:27,436 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 13:17:27,436 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 13:17:27,436 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:27,436 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:28,049 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 13:17:28,049 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 13:17:28,050 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:28,050 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:28,667 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 13:17:28,667 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 13:17:28,667 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:28,667 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:29,177 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 13:17:29,177 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 13:17:29,177 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:29,177 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:29,652 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 13:17:29,652 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 13:17:29,652 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:29,652 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:30,129 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 13:17:30,129 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 13:17:30,130 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:30,130 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:30,639 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 13:17:30,639 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 13:17:30,640 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:30,640 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:31,152 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 13:17:31,152 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 13:17:31,153 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:31,153 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:31,734 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 13:17:31,734 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 13:17:31,735 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:31,735 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:32,324 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 13:17:32,324 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 13:17:32,325 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:32,325 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:32,888 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 13:17:32,888 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 13:17:32,888 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:32,888 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:33,425 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 13:17:33,425 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 13:17:33,425 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:33,425 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:33,912 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 13:17:33,912 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 13:17:33,912 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:33,912 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:34,422 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 13:17:34,422 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 13:17:34,423 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:34,423 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:17:34,424 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 13:17:34,424 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 13:17:40,031 - DEBUG - Session has been stored for Siva_Subramaniyan@comcast.com:Sivasubramaniyan K
+2025-01-28 13:17:40,031 - DEBUG - Session has been stored for Siva_Subramaniyan@comcast.com:Sivasubramaniyan K
+2025-01-28 13:17:40,541 - DEBUG - Invoking get_managers function to get the list of managers!!
+2025-01-28 13:17:40,541 - DEBUG - Invoking get_managers function to get the list of managers!!
+2025-01-28 13:17:41,051 - DEBUG - Invoking get_teams function to get list of teams
+2025-01-28 13:17:41,051 - DEBUG - Invoking get_teams function to get list of teams
+2025-01-28 13:17:41,591 - DEBUG - Invoking get_privilege function to get the admin details!!
+2025-01-28 13:17:41,591 - DEBUG - Invoking get_privilege function to get the admin details!!
+2025-01-28 13:17:41,873 - DEBUG - Invoking get_fullholiday_data to get all the holiday lists!!
+2025-01-28 13:17:41,873 - DEBUG - Invoking get_fullholiday_data to get all the holiday lists!!
+2025-01-28 13:17:42,109 - DEBUG - Invoking get_pending_leaves function to get all the pending leaves for approval!!
+2025-01-28 13:17:42,109 - DEBUG - Invoking get_pending_leaves function to get all the pending leaves for approval!!
+2025-01-28 13:17:42,109 - DEBUG - Pending leave requests has been saved in the session
+2025-01-28 13:17:42,109 - DEBUG - Pending leave requests has been saved in the session
+2025-01-28 13:17:42,109 - DEBUG - The user logged in found to be a normal user!!
+2025-01-28 13:17:42,109 - DEBUG - The user logged in found to be a normal user!!
+2025-01-28 13:17:55,483 - DEBUG - Session has been stored for jayanth_raveendran@comcast.com:Jayanth
+2025-01-28 13:17:55,483 - DEBUG - Session has been stored for jayanth_raveendran@comcast.com:Jayanth
+2025-01-28 13:17:56,030 - DEBUG - Invoking get_managers function to get the list of managers!!
+2025-01-28 13:17:56,030 - DEBUG - Invoking get_managers function to get the list of managers!!
+2025-01-28 13:17:56,547 - DEBUG - Invoking get_teams function to get list of teams
+2025-01-28 13:17:56,547 - DEBUG - Invoking get_teams function to get list of teams
+2025-01-28 13:17:57,128 - DEBUG - Invoking get_privilege function to get the admin details!!
+2025-01-28 13:17:57,128 - DEBUG - Invoking get_privilege function to get the admin details!!
+2025-01-28 13:17:57,437 - DEBUG - Invoking get_fullholiday_data to get all the holiday lists!!
+2025-01-28 13:17:57,437 - DEBUG - Invoking get_fullholiday_data to get all the holiday lists!!
+2025-01-28 13:17:57,684 - DEBUG - Invoking get_pending_leaves function to get all the pending leaves for approval!!
+2025-01-28 13:17:57,684 - DEBUG - Invoking get_pending_leaves function to get all the pending leaves for approval!!
+2025-01-28 13:17:57,684 - DEBUG - Pending leave requests has been saved in the session
+2025-01-28 13:17:57,684 - DEBUG - Pending leave requests has been saved in the session
+2025-01-28 13:17:57,685 - DEBUG - The user logged in is found to be admin!!
+2025-01-28 13:17:57,685 - DEBUG - The user logged in is found to be admin!!
+2025-01-28 13:17:58,973 - DEBUG - Session for ['Beeswax-SRE', 'EP', 'Intern', 'Linear-NOC', 'NOC', 'OPS-DEV', 'System-Security', 'TVP-DEV-DATA', 'TVP-SRE-DATA'], [{'Name': 'Jayanth', 'Email': 'jayanth_raveendran@comcast.com', 'Position': 'Manager'}, {'Name': 'Mukesh', 'Email': 'mukesh_kumar4@comcast.com', 'Position': 'Manager'}], ['jayanth_raveendran@comcast.com', 'mukesh_kumar4@comcast.com'], ['Beeswax-SRE', 'EP', 'Intern', 'Linear-NOC', 'NOC', 'OPS-DEV', 'System-Security', 'TVP-DEV-DATA', 'TVP-SRE-DATA'], [{'title': 'Sivasubramaniyan K: Leave: Test', 'start': '2024-12-18T00:00:00', 'end': '2024-12-18T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'Test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: Leave : Test'"}, {'title': 'Sivasubramaniyan K: WFH: test', 'start': '2025-01-25T00:00:00', 'end': '2025-01-25T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: WFH : test'"}, {'title': 'Sivasubramaniyan K: WFH: test', 'start': '2025-01-22T00:00:00', 'end': '2025-01-22T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: WFH : test'"}, {'title': 'Sivasubramaniyan K: Leave: test', 'start': '2025-02-05T00:00:00', 'end': '2025-02-05T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: Leave : test'"}, {'title': 'C. Jaganprakash: WFH: test', 'start': '2025-01-25T00:00:00', 'end': '2025-01-25T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: WFH : test'"}, {'title': 'C. Jaganprakash: WFH: test', 'start': '2025-01-22T00:00:00', 'end': '2025-01-22T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: WFH : test'"}, {'title': 'C. Jaganprakash: Leave: test', 'start': '2025-02-05T00:00:00', 'end': '2025-02-05T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: Leave : test'"}, {'title': "New Year's Day:FESTIVAL", 'allDay': True, 'start': '2024-01-01T00:00:00', 'end': '2024-01-01T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'PONGAL:FESTIVAL', 'allDay': True, 'start': '2024-01-15T00:00:00', 'end': '2024-01-15T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Thiruvalluvar Day:FESTIVAL', 'allDay': True, 'start': '2024-01-16T00:00:00', 'end': '2024-01-16T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Republic Day:NATIONAL', 'allDay': True, 'start': '2024-01-26T00:00:00', 'end': '2024-01-26T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Holi:FESTIVAL', 'allDay': True, 'start': '2024-03-25T00:00:00', 'end': '2024-03-25T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Good Friday:FESTIVAL', 'allDay': True, 'start': '2024-03-29T00:00:00', 'end': '2024-03-29T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': "Telugu New Year's Day:FESTIVAL", 'allDay': True, 'start': '2024-04-09T00:00:00', 'end': '2024-04-09T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Ramzan:FESTIVAL', 'allDay': True, 'start': '2024-04-11T00:00:00', 'end': '2024-04-11T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Tamil New Year/BR Ambedkar Birthday:FESTIVAL', 'allDay': True, 'start': '2024-04-14T00:00:00', 'end': '2024-04-14T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'May Day:NATIONAL', 'allDay': True, 'start': '2024-05-01T00:00:00', 'end': '2024-05-01T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Bakrid:FESTIVAL', 'allDay': True, 'start': '2024-06-17T00:00:00', 'end': '2024-06-17T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'Independence Day:NATIONAL', 'allDay': True, 'start': '2024-08-15T00:00:00', 'end': '2024-08-15T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Krishna Jayanthi:FESTIVAL', 'allDay': True, 'start': '2024-08-26T00:00:00', 'end': '2024-08-26T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Vinayakar Chathurthi:FESTIVAL', 'allDay': True, 'start': '2024-09-07T00:00:00', 'end': '2024-09-07T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Milad-un-Nabi:FESTIVAL', 'allDay': True, 'start': '2024-09-16T00:00:00', 'end': '2024-09-16T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Gandhi Jayanthi,NATIONAL:MANDATORY', 'allDay': True, 'start': '2024-10-02T00:00:00', 'end': '2024-10-02T23:59:59', 'description': 'MANDATORY', 'color': 'gray'}, {'title': 'Ayutha Pooja:FESTIVAL', 'allDay': True, 'start': '2024-10-11T00:00:00', 'end': '2024-10-11T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Diwali:FESTIVAL', 'allDay': True, 'start': '2024-10-31T00:00:00', 'end': '2024-10-31T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'Christmas:FESTIVAL', 'allDay': True, 'start': '2024-12-25T00:00:00', 'end': '2024-12-25T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}] has been stored!!
+2025-01-28 13:17:58,973 - DEBUG - Session for ['Beeswax-SRE', 'EP', 'Intern', 'Linear-NOC', 'NOC', 'OPS-DEV', 'System-Security', 'TVP-DEV-DATA', 'TVP-SRE-DATA'], [{'Name': 'Jayanth', 'Email': 'jayanth_raveendran@comcast.com', 'Position': 'Manager'}, {'Name': 'Mukesh', 'Email': 'mukesh_kumar4@comcast.com', 'Position': 'Manager'}], ['jayanth_raveendran@comcast.com', 'mukesh_kumar4@comcast.com'], ['Beeswax-SRE', 'EP', 'Intern', 'Linear-NOC', 'NOC', 'OPS-DEV', 'System-Security', 'TVP-DEV-DATA', 'TVP-SRE-DATA'], [{'title': 'Sivasubramaniyan K: Leave: Test', 'start': '2024-12-18T00:00:00', 'end': '2024-12-18T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'Test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: Leave : Test'"}, {'title': 'Sivasubramaniyan K: WFH: test', 'start': '2025-01-25T00:00:00', 'end': '2025-01-25T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: WFH : test'"}, {'title': 'Sivasubramaniyan K: WFH: test', 'start': '2025-01-22T00:00:00', 'end': '2025-01-22T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: WFH : test'"}, {'title': 'Sivasubramaniyan K: Leave: test', 'start': '2025-02-05T00:00:00', 'end': '2025-02-05T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: Leave : test'"}, {'title': 'C. Jaganprakash: WFH: test', 'start': '2025-01-25T00:00:00', 'end': '2025-01-25T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: WFH : test'"}, {'title': 'C. Jaganprakash: WFH: test', 'start': '2025-01-22T00:00:00', 'end': '2025-01-22T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: WFH : test'"}, {'title': 'C. Jaganprakash: Leave: test', 'start': '2025-02-05T00:00:00', 'end': '2025-02-05T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: Leave : test'"}, {'title': "New Year's Day:FESTIVAL", 'allDay': True, 'start': '2024-01-01T00:00:00', 'end': '2024-01-01T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'PONGAL:FESTIVAL', 'allDay': True, 'start': '2024-01-15T00:00:00', 'end': '2024-01-15T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Thiruvalluvar Day:FESTIVAL', 'allDay': True, 'start': '2024-01-16T00:00:00', 'end': '2024-01-16T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Republic Day:NATIONAL', 'allDay': True, 'start': '2024-01-26T00:00:00', 'end': '2024-01-26T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Holi:FESTIVAL', 'allDay': True, 'start': '2024-03-25T00:00:00', 'end': '2024-03-25T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Good Friday:FESTIVAL', 'allDay': True, 'start': '2024-03-29T00:00:00', 'end': '2024-03-29T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': "Telugu New Year's Day:FESTIVAL", 'allDay': True, 'start': '2024-04-09T00:00:00', 'end': '2024-04-09T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Ramzan:FESTIVAL', 'allDay': True, 'start': '2024-04-11T00:00:00', 'end': '2024-04-11T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Tamil New Year/BR Ambedkar Birthday:FESTIVAL', 'allDay': True, 'start': '2024-04-14T00:00:00', 'end': '2024-04-14T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'May Day:NATIONAL', 'allDay': True, 'start': '2024-05-01T00:00:00', 'end': '2024-05-01T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Bakrid:FESTIVAL', 'allDay': True, 'start': '2024-06-17T00:00:00', 'end': '2024-06-17T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'Independence Day:NATIONAL', 'allDay': True, 'start': '2024-08-15T00:00:00', 'end': '2024-08-15T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Krishna Jayanthi:FESTIVAL', 'allDay': True, 'start': '2024-08-26T00:00:00', 'end': '2024-08-26T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Vinayakar Chathurthi:FESTIVAL', 'allDay': True, 'start': '2024-09-07T00:00:00', 'end': '2024-09-07T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Milad-un-Nabi:FESTIVAL', 'allDay': True, 'start': '2024-09-16T00:00:00', 'end': '2024-09-16T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Gandhi Jayanthi,NATIONAL:MANDATORY', 'allDay': True, 'start': '2024-10-02T00:00:00', 'end': '2024-10-02T23:59:59', 'description': 'MANDATORY', 'color': 'gray'}, {'title': 'Ayutha Pooja:FESTIVAL', 'allDay': True, 'start': '2024-10-11T00:00:00', 'end': '2024-10-11T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Diwali:FESTIVAL', 'allDay': True, 'start': '2024-10-31T00:00:00', 'end': '2024-10-31T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'Christmas:FESTIVAL', 'allDay': True, 'start': '2024-12-25T00:00:00', 'end': '2024-12-25T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}] has been stored!!
+2025-01-28 13:17:58,973 - DEBUG - Logging into the manager console!!
+2025-01-28 13:17:58,973 - DEBUG - Logging into the manager console!!
+2025-01-28 13:17:58,974 - DEBUG - Rendering into manager_console.html!
+2025-01-28 13:17:58,974 - DEBUG - Rendering into manager_console.html!
+2025-01-28 13:18:22,529 - DEBUG - Session has been stored for jayanth_raveendran@comcast.com:Jayanth
+2025-01-28 13:18:22,529 - DEBUG - Session has been stored for jayanth_raveendran@comcast.com:Jayanth
+2025-01-28 13:18:23,139 - DEBUG - Invoking get_managers function to get the list of managers!!
+2025-01-28 13:18:23,139 - DEBUG - Invoking get_managers function to get the list of managers!!
+2025-01-28 13:18:23,608 - DEBUG - Invoking get_teams function to get list of teams
+2025-01-28 13:18:23,608 - DEBUG - Invoking get_teams function to get list of teams
+2025-01-28 13:18:24,166 - DEBUG - Invoking get_privilege function to get the admin details!!
+2025-01-28 13:18:24,166 - DEBUG - Invoking get_privilege function to get the admin details!!
+2025-01-28 13:18:24,401 - DEBUG - Invoking get_fullholiday_data to get all the holiday lists!!
+2025-01-28 13:18:24,401 - DEBUG - Invoking get_fullholiday_data to get all the holiday lists!!
+2025-01-28 13:18:24,637 - DEBUG - Invoking get_pending_leaves function to get all the pending leaves for approval!!
+2025-01-28 13:18:24,637 - DEBUG - Invoking get_pending_leaves function to get all the pending leaves for approval!!
+2025-01-28 13:18:24,637 - DEBUG - Pending leave requests has been saved in the session
+2025-01-28 13:18:24,637 - DEBUG - Pending leave requests has been saved in the session
+2025-01-28 13:18:24,638 - DEBUG - The user logged in is found to be admin!!
+2025-01-28 13:18:24,638 - DEBUG - The user logged in is found to be admin!!
+2025-01-28 13:18:26,108 - DEBUG - Session for ['Beeswax-SRE', 'EP', 'Intern', 'Linear-NOC', 'NOC', 'OPS-DEV', 'System-Security', 'TVP-DEV-DATA', 'TVP-SRE-DATA'], [{'Name': 'Jayanth', 'Email': 'jayanth_raveendran@comcast.com', 'Position': 'Manager'}, {'Name': 'Mukesh', 'Email': 'mukesh_kumar4@comcast.com', 'Position': 'Manager'}], ['jayanth_raveendran@comcast.com', 'mukesh_kumar4@comcast.com'], ['Beeswax-SRE', 'EP', 'Intern', 'Linear-NOC', 'NOC', 'OPS-DEV', 'System-Security', 'TVP-DEV-DATA', 'TVP-SRE-DATA'], [{'title': 'Sivasubramaniyan K: Leave: Test', 'start': '2024-12-18T00:00:00', 'end': '2024-12-18T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'Test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: Leave : Test'"}, {'title': 'Sivasubramaniyan K: WFH: test', 'start': '2025-01-25T00:00:00', 'end': '2025-01-25T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: WFH : test'"}, {'title': 'Sivasubramaniyan K: WFH: test', 'start': '2025-01-22T00:00:00', 'end': '2025-01-22T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: WFH : test'"}, {'title': 'Sivasubramaniyan K: Leave: test', 'start': '2025-02-05T00:00:00', 'end': '2025-02-05T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: Leave : test'"}, {'title': 'C. Jaganprakash: WFH: test', 'start': '2025-01-25T00:00:00', 'end': '2025-01-25T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: WFH : test'"}, {'title': 'C. Jaganprakash: WFH: test', 'start': '2025-01-22T00:00:00', 'end': '2025-01-22T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: WFH : test'"}, {'title': 'C. Jaganprakash: Leave: test', 'start': '2025-02-05T00:00:00', 'end': '2025-02-05T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: Leave : test'"}, {'title': "New Year's Day:FESTIVAL", 'allDay': True, 'start': '2024-01-01T00:00:00', 'end': '2024-01-01T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'PONGAL:FESTIVAL', 'allDay': True, 'start': '2024-01-15T00:00:00', 'end': '2024-01-15T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Thiruvalluvar Day:FESTIVAL', 'allDay': True, 'start': '2024-01-16T00:00:00', 'end': '2024-01-16T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Republic Day:NATIONAL', 'allDay': True, 'start': '2024-01-26T00:00:00', 'end': '2024-01-26T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Holi:FESTIVAL', 'allDay': True, 'start': '2024-03-25T00:00:00', 'end': '2024-03-25T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Good Friday:FESTIVAL', 'allDay': True, 'start': '2024-03-29T00:00:00', 'end': '2024-03-29T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': "Telugu New Year's Day:FESTIVAL", 'allDay': True, 'start': '2024-04-09T00:00:00', 'end': '2024-04-09T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Ramzan:FESTIVAL', 'allDay': True, 'start': '2024-04-11T00:00:00', 'end': '2024-04-11T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Tamil New Year/BR Ambedkar Birthday:FESTIVAL', 'allDay': True, 'start': '2024-04-14T00:00:00', 'end': '2024-04-14T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'May Day:NATIONAL', 'allDay': True, 'start': '2024-05-01T00:00:00', 'end': '2024-05-01T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Bakrid:FESTIVAL', 'allDay': True, 'start': '2024-06-17T00:00:00', 'end': '2024-06-17T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'Independence Day:NATIONAL', 'allDay': True, 'start': '2024-08-15T00:00:00', 'end': '2024-08-15T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Krishna Jayanthi:FESTIVAL', 'allDay': True, 'start': '2024-08-26T00:00:00', 'end': '2024-08-26T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Vinayakar Chathurthi:FESTIVAL', 'allDay': True, 'start': '2024-09-07T00:00:00', 'end': '2024-09-07T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Milad-un-Nabi:FESTIVAL', 'allDay': True, 'start': '2024-09-16T00:00:00', 'end': '2024-09-16T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Gandhi Jayanthi,NATIONAL:MANDATORY', 'allDay': True, 'start': '2024-10-02T00:00:00', 'end': '2024-10-02T23:59:59', 'description': 'MANDATORY', 'color': 'gray'}, {'title': 'Ayutha Pooja:FESTIVAL', 'allDay': True, 'start': '2024-10-11T00:00:00', 'end': '2024-10-11T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Diwali:FESTIVAL', 'allDay': True, 'start': '2024-10-31T00:00:00', 'end': '2024-10-31T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'Christmas:FESTIVAL', 'allDay': True, 'start': '2024-12-25T00:00:00', 'end': '2024-12-25T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}] has been stored!!
+2025-01-28 13:18:26,108 - DEBUG - Session for ['Beeswax-SRE', 'EP', 'Intern', 'Linear-NOC', 'NOC', 'OPS-DEV', 'System-Security', 'TVP-DEV-DATA', 'TVP-SRE-DATA'], [{'Name': 'Jayanth', 'Email': 'jayanth_raveendran@comcast.com', 'Position': 'Manager'}, {'Name': 'Mukesh', 'Email': 'mukesh_kumar4@comcast.com', 'Position': 'Manager'}], ['jayanth_raveendran@comcast.com', 'mukesh_kumar4@comcast.com'], ['Beeswax-SRE', 'EP', 'Intern', 'Linear-NOC', 'NOC', 'OPS-DEV', 'System-Security', 'TVP-DEV-DATA', 'TVP-SRE-DATA'], [{'title': 'Sivasubramaniyan K: Leave: Test', 'start': '2024-12-18T00:00:00', 'end': '2024-12-18T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'Test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: Leave : Test'"}, {'title': 'Sivasubramaniyan K: WFH: test', 'start': '2025-01-25T00:00:00', 'end': '2025-01-25T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: WFH : test'"}, {'title': 'Sivasubramaniyan K: WFH: test', 'start': '2025-01-22T00:00:00', 'end': '2025-01-22T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: WFH : test'"}, {'title': 'Sivasubramaniyan K: Leave: test', 'start': '2025-02-05T00:00:00', 'end': '2025-02-05T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: Leave : test'"}, {'title': 'C. Jaganprakash: WFH: test', 'start': '2025-01-25T00:00:00', 'end': '2025-01-25T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: WFH : test'"}, {'title': 'C. Jaganprakash: WFH: test', 'start': '2025-01-22T00:00:00', 'end': '2025-01-22T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: WFH : test'"}, {'title': 'C. Jaganprakash: Leave: test', 'start': '2025-02-05T00:00:00', 'end': '2025-02-05T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: Leave : test'"}, {'title': "New Year's Day:FESTIVAL", 'allDay': True, 'start': '2024-01-01T00:00:00', 'end': '2024-01-01T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'PONGAL:FESTIVAL', 'allDay': True, 'start': '2024-01-15T00:00:00', 'end': '2024-01-15T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Thiruvalluvar Day:FESTIVAL', 'allDay': True, 'start': '2024-01-16T00:00:00', 'end': '2024-01-16T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Republic Day:NATIONAL', 'allDay': True, 'start': '2024-01-26T00:00:00', 'end': '2024-01-26T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Holi:FESTIVAL', 'allDay': True, 'start': '2024-03-25T00:00:00', 'end': '2024-03-25T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Good Friday:FESTIVAL', 'allDay': True, 'start': '2024-03-29T00:00:00', 'end': '2024-03-29T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': "Telugu New Year's Day:FESTIVAL", 'allDay': True, 'start': '2024-04-09T00:00:00', 'end': '2024-04-09T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Ramzan:FESTIVAL', 'allDay': True, 'start': '2024-04-11T00:00:00', 'end': '2024-04-11T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Tamil New Year/BR Ambedkar Birthday:FESTIVAL', 'allDay': True, 'start': '2024-04-14T00:00:00', 'end': '2024-04-14T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'May Day:NATIONAL', 'allDay': True, 'start': '2024-05-01T00:00:00', 'end': '2024-05-01T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Bakrid:FESTIVAL', 'allDay': True, 'start': '2024-06-17T00:00:00', 'end': '2024-06-17T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'Independence Day:NATIONAL', 'allDay': True, 'start': '2024-08-15T00:00:00', 'end': '2024-08-15T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Krishna Jayanthi:FESTIVAL', 'allDay': True, 'start': '2024-08-26T00:00:00', 'end': '2024-08-26T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Vinayakar Chathurthi:FESTIVAL', 'allDay': True, 'start': '2024-09-07T00:00:00', 'end': '2024-09-07T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Milad-un-Nabi:FESTIVAL', 'allDay': True, 'start': '2024-09-16T00:00:00', 'end': '2024-09-16T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Gandhi Jayanthi,NATIONAL:MANDATORY', 'allDay': True, 'start': '2024-10-02T00:00:00', 'end': '2024-10-02T23:59:59', 'description': 'MANDATORY', 'color': 'gray'}, {'title': 'Ayutha Pooja:FESTIVAL', 'allDay': True, 'start': '2024-10-11T00:00:00', 'end': '2024-10-11T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Diwali:FESTIVAL', 'allDay': True, 'start': '2024-10-31T00:00:00', 'end': '2024-10-31T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'Christmas:FESTIVAL', 'allDay': True, 'start': '2024-12-25T00:00:00', 'end': '2024-12-25T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}] has been stored!!
+2025-01-28 13:18:26,109 - DEBUG - Logging into the manager console!!
+2025-01-28 13:18:26,109 - DEBUG - Logging into the manager console!!
+2025-01-28 13:18:26,110 - DEBUG - Rendering into manager_console.html!
+2025-01-28 13:18:26,110 - DEBUG - Rendering into manager_console.html!
+2025-01-28 13:18:36,894 - DEBUG - Session has been stored for jayanth_raveendran@comcast.com:Jayanth
+2025-01-28 13:18:36,894 - DEBUG - Session has been stored for jayanth_raveendran@comcast.com:Jayanth
+2025-01-28 13:18:37,361 - DEBUG - Invoking get_managers function to get the list of managers!!
+2025-01-28 13:18:37,361 - DEBUG - Invoking get_managers function to get the list of managers!!
+2025-01-28 13:18:37,984 - DEBUG - Invoking get_teams function to get list of teams
+2025-01-28 13:18:37,984 - DEBUG - Invoking get_teams function to get list of teams
+2025-01-28 13:18:38,535 - DEBUG - Invoking get_privilege function to get the admin details!!
+2025-01-28 13:18:38,535 - DEBUG - Invoking get_privilege function to get the admin details!!
+2025-01-28 13:18:38,768 - DEBUG - Invoking get_fullholiday_data to get all the holiday lists!!
+2025-01-28 13:18:38,768 - DEBUG - Invoking get_fullholiday_data to get all the holiday lists!!
+2025-01-28 13:18:39,004 - DEBUG - Invoking get_pending_leaves function to get all the pending leaves for approval!!
+2025-01-28 13:18:39,004 - DEBUG - Invoking get_pending_leaves function to get all the pending leaves for approval!!
+2025-01-28 13:18:39,004 - DEBUG - Pending leave requests has been saved in the session
+2025-01-28 13:18:39,004 - DEBUG - Pending leave requests has been saved in the session
+2025-01-28 13:18:39,004 - DEBUG - The user logged in is found to be admin!!
+2025-01-28 13:18:39,004 - DEBUG - The user logged in is found to be admin!!
+2025-01-28 13:18:40,632 - DEBUG - Session for ['Beeswax-SRE', 'EP', 'Intern', 'Linear-NOC', 'NOC', 'OPS-DEV', 'System-Security', 'TVP-DEV-DATA', 'TVP-SRE-DATA'], [{'Name': 'Jayanth', 'Email': 'jayanth_raveendran@comcast.com', 'Position': 'Manager'}, {'Name': 'Mukesh', 'Email': 'mukesh_kumar4@comcast.com', 'Position': 'Manager'}], ['jayanth_raveendran@comcast.com', 'mukesh_kumar4@comcast.com'], ['Beeswax-SRE', 'EP', 'Intern', 'Linear-NOC', 'NOC', 'OPS-DEV', 'System-Security', 'TVP-DEV-DATA', 'TVP-SRE-DATA'], [{'title': 'Sivasubramaniyan K: Leave: Test', 'start': '2024-12-18T00:00:00', 'end': '2024-12-18T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'Test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: Leave : Test'"}, {'title': 'Sivasubramaniyan K: WFH: test', 'start': '2025-01-25T00:00:00', 'end': '2025-01-25T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: WFH : test'"}, {'title': 'Sivasubramaniyan K: WFH: test', 'start': '2025-01-22T00:00:00', 'end': '2025-01-22T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: WFH : test'"}, {'title': 'Sivasubramaniyan K: Leave: test', 'start': '2025-02-05T00:00:00', 'end': '2025-02-05T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: Leave : test'"}, {'title': 'C. Jaganprakash: WFH: test', 'start': '2025-01-25T00:00:00', 'end': '2025-01-25T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: WFH : test'"}, {'title': 'C. Jaganprakash: WFH: test', 'start': '2025-01-22T00:00:00', 'end': '2025-01-22T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: WFH : test'"}, {'title': 'C. Jaganprakash: Leave: test', 'start': '2025-02-05T00:00:00', 'end': '2025-02-05T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: Leave : test'"}, {'title': "New Year's Day:FESTIVAL", 'allDay': True, 'start': '2024-01-01T00:00:00', 'end': '2024-01-01T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'PONGAL:FESTIVAL', 'allDay': True, 'start': '2024-01-15T00:00:00', 'end': '2024-01-15T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Thiruvalluvar Day:FESTIVAL', 'allDay': True, 'start': '2024-01-16T00:00:00', 'end': '2024-01-16T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Republic Day:NATIONAL', 'allDay': True, 'start': '2024-01-26T00:00:00', 'end': '2024-01-26T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Holi:FESTIVAL', 'allDay': True, 'start': '2024-03-25T00:00:00', 'end': '2024-03-25T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Good Friday:FESTIVAL', 'allDay': True, 'start': '2024-03-29T00:00:00', 'end': '2024-03-29T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': "Telugu New Year's Day:FESTIVAL", 'allDay': True, 'start': '2024-04-09T00:00:00', 'end': '2024-04-09T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Ramzan:FESTIVAL', 'allDay': True, 'start': '2024-04-11T00:00:00', 'end': '2024-04-11T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Tamil New Year/BR Ambedkar Birthday:FESTIVAL', 'allDay': True, 'start': '2024-04-14T00:00:00', 'end': '2024-04-14T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'May Day:NATIONAL', 'allDay': True, 'start': '2024-05-01T00:00:00', 'end': '2024-05-01T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Bakrid:FESTIVAL', 'allDay': True, 'start': '2024-06-17T00:00:00', 'end': '2024-06-17T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'Independence Day:NATIONAL', 'allDay': True, 'start': '2024-08-15T00:00:00', 'end': '2024-08-15T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Krishna Jayanthi:FESTIVAL', 'allDay': True, 'start': '2024-08-26T00:00:00', 'end': '2024-08-26T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Vinayakar Chathurthi:FESTIVAL', 'allDay': True, 'start': '2024-09-07T00:00:00', 'end': '2024-09-07T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Milad-un-Nabi:FESTIVAL', 'allDay': True, 'start': '2024-09-16T00:00:00', 'end': '2024-09-16T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Gandhi Jayanthi,NATIONAL:MANDATORY', 'allDay': True, 'start': '2024-10-02T00:00:00', 'end': '2024-10-02T23:59:59', 'description': 'MANDATORY', 'color': 'gray'}, {'title': 'Ayutha Pooja:FESTIVAL', 'allDay': True, 'start': '2024-10-11T00:00:00', 'end': '2024-10-11T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Diwali:FESTIVAL', 'allDay': True, 'start': '2024-10-31T00:00:00', 'end': '2024-10-31T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'Christmas:FESTIVAL', 'allDay': True, 'start': '2024-12-25T00:00:00', 'end': '2024-12-25T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}] has been stored!!
+2025-01-28 13:18:40,632 - DEBUG - Session for ['Beeswax-SRE', 'EP', 'Intern', 'Linear-NOC', 'NOC', 'OPS-DEV', 'System-Security', 'TVP-DEV-DATA', 'TVP-SRE-DATA'], [{'Name': 'Jayanth', 'Email': 'jayanth_raveendran@comcast.com', 'Position': 'Manager'}, {'Name': 'Mukesh', 'Email': 'mukesh_kumar4@comcast.com', 'Position': 'Manager'}], ['jayanth_raveendran@comcast.com', 'mukesh_kumar4@comcast.com'], ['Beeswax-SRE', 'EP', 'Intern', 'Linear-NOC', 'NOC', 'OPS-DEV', 'System-Security', 'TVP-DEV-DATA', 'TVP-SRE-DATA'], [{'title': 'Sivasubramaniyan K: Leave: Test', 'start': '2024-12-18T00:00:00', 'end': '2024-12-18T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'Test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: Leave : Test'"}, {'title': 'Sivasubramaniyan K: WFH: test', 'start': '2025-01-25T00:00:00', 'end': '2025-01-25T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: WFH : test'"}, {'title': 'Sivasubramaniyan K: WFH: test', 'start': '2025-01-22T00:00:00', 'end': '2025-01-22T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: WFH : test'"}, {'title': 'Sivasubramaniyan K: Leave: test', 'start': '2025-02-05T00:00:00', 'end': '2025-02-05T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: Leave : test'"}, {'title': 'C. Jaganprakash: WFH: test', 'start': '2025-01-25T00:00:00', 'end': '2025-01-25T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: WFH : test'"}, {'title': 'C. Jaganprakash: WFH: test', 'start': '2025-01-22T00:00:00', 'end': '2025-01-22T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: WFH : test'"}, {'title': 'C. Jaganprakash: Leave: test', 'start': '2025-02-05T00:00:00', 'end': '2025-02-05T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: Leave : test'"}, {'title': "New Year's Day:FESTIVAL", 'allDay': True, 'start': '2024-01-01T00:00:00', 'end': '2024-01-01T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'PONGAL:FESTIVAL', 'allDay': True, 'start': '2024-01-15T00:00:00', 'end': '2024-01-15T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Thiruvalluvar Day:FESTIVAL', 'allDay': True, 'start': '2024-01-16T00:00:00', 'end': '2024-01-16T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Republic Day:NATIONAL', 'allDay': True, 'start': '2024-01-26T00:00:00', 'end': '2024-01-26T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Holi:FESTIVAL', 'allDay': True, 'start': '2024-03-25T00:00:00', 'end': '2024-03-25T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Good Friday:FESTIVAL', 'allDay': True, 'start': '2024-03-29T00:00:00', 'end': '2024-03-29T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': "Telugu New Year's Day:FESTIVAL", 'allDay': True, 'start': '2024-04-09T00:00:00', 'end': '2024-04-09T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Ramzan:FESTIVAL', 'allDay': True, 'start': '2024-04-11T00:00:00', 'end': '2024-04-11T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Tamil New Year/BR Ambedkar Birthday:FESTIVAL', 'allDay': True, 'start': '2024-04-14T00:00:00', 'end': '2024-04-14T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'May Day:NATIONAL', 'allDay': True, 'start': '2024-05-01T00:00:00', 'end': '2024-05-01T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Bakrid:FESTIVAL', 'allDay': True, 'start': '2024-06-17T00:00:00', 'end': '2024-06-17T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'Independence Day:NATIONAL', 'allDay': True, 'start': '2024-08-15T00:00:00', 'end': '2024-08-15T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Krishna Jayanthi:FESTIVAL', 'allDay': True, 'start': '2024-08-26T00:00:00', 'end': '2024-08-26T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Vinayakar Chathurthi:FESTIVAL', 'allDay': True, 'start': '2024-09-07T00:00:00', 'end': '2024-09-07T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Milad-un-Nabi:FESTIVAL', 'allDay': True, 'start': '2024-09-16T00:00:00', 'end': '2024-09-16T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Gandhi Jayanthi,NATIONAL:MANDATORY', 'allDay': True, 'start': '2024-10-02T00:00:00', 'end': '2024-10-02T23:59:59', 'description': 'MANDATORY', 'color': 'gray'}, {'title': 'Ayutha Pooja:FESTIVAL', 'allDay': True, 'start': '2024-10-11T00:00:00', 'end': '2024-10-11T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Diwali:FESTIVAL', 'allDay': True, 'start': '2024-10-31T00:00:00', 'end': '2024-10-31T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'Christmas:FESTIVAL', 'allDay': True, 'start': '2024-12-25T00:00:00', 'end': '2024-12-25T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}] has been stored!!
+2025-01-28 13:18:40,633 - DEBUG - Logging into the manager console!!
+2025-01-28 13:18:40,633 - DEBUG - Logging into the manager console!!
+2025-01-28 13:18:40,635 - DEBUG - Rendering into manager_console.html!
+2025-01-28 13:18:40,635 - DEBUG - Rendering into manager_console.html!
+2025-01-28 13:19:57,934 - DEBUG - Session has been stored for jayanth_raveendran@comcast.com:Jayanth
+2025-01-28 13:19:57,934 - DEBUG - Session has been stored for jayanth_raveendran@comcast.com:Jayanth
+2025-01-28 13:19:58,578 - DEBUG - Invoking get_managers function to get the list of managers!!
+2025-01-28 13:19:58,578 - DEBUG - Invoking get_managers function to get the list of managers!!
+2025-01-28 13:19:59,186 - DEBUG - Invoking get_teams function to get list of teams
+2025-01-28 13:19:59,186 - DEBUG - Invoking get_teams function to get list of teams
+2025-01-28 13:19:59,802 - DEBUG - Invoking get_privilege function to get the admin details!!
+2025-01-28 13:19:59,802 - DEBUG - Invoking get_privilege function to get the admin details!!
+2025-01-28 13:20:00,040 - DEBUG - Invoking get_fullholiday_data to get all the holiday lists!!
+2025-01-28 13:20:00,040 - DEBUG - Invoking get_fullholiday_data to get all the holiday lists!!
+2025-01-28 13:20:00,280 - DEBUG - Invoking get_pending_leaves function to get all the pending leaves for approval!!
+2025-01-28 13:20:00,280 - DEBUG - Invoking get_pending_leaves function to get all the pending leaves for approval!!
+2025-01-28 13:20:00,284 - DEBUG - Pending leave requests has been saved in the session
+2025-01-28 13:20:00,284 - DEBUG - Pending leave requests has been saved in the session
+2025-01-28 13:20:00,287 - DEBUG - The user logged in is found to be admin!!
+2025-01-28 13:20:00,287 - DEBUG - The user logged in is found to be admin!!
+2025-01-28 13:20:01,669 - DEBUG - Session for ['Beeswax-SRE', 'EP', 'Intern', 'Linear-NOC', 'NOC', 'OPS-DEV', 'System-Security', 'TVP-DEV-DATA', 'TVP-SRE-DATA'], [{'Name': 'Jayanth', 'Email': 'jayanth_raveendran@comcast.com', 'Position': 'Manager'}, {'Name': 'Mukesh', 'Email': 'mukesh_kumar4@comcast.com', 'Position': 'Manager'}], ['jayanth_raveendran@comcast.com', 'mukesh_kumar4@comcast.com'], ['Beeswax-SRE', 'EP', 'Intern', 'Linear-NOC', 'NOC', 'OPS-DEV', 'System-Security', 'TVP-DEV-DATA', 'TVP-SRE-DATA'], [{'title': 'Sivasubramaniyan K: Leave: Test', 'start': '2024-12-18T00:00:00', 'end': '2024-12-18T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'Test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: Leave : Test'"}, {'title': 'Sivasubramaniyan K: WFH: test', 'start': '2025-01-25T00:00:00', 'end': '2025-01-25T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: WFH : test'"}, {'title': 'Sivasubramaniyan K: WFH: test', 'start': '2025-01-22T00:00:00', 'end': '2025-01-22T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: WFH : test'"}, {'title': 'Sivasubramaniyan K: Leave: test', 'start': '2025-02-05T00:00:00', 'end': '2025-02-05T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: Leave : test'"}, {'title': 'C. Jaganprakash: WFH: test', 'start': '2025-01-25T00:00:00', 'end': '2025-01-25T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: WFH : test'"}, {'title': 'C. Jaganprakash: WFH: test', 'start': '2025-01-22T00:00:00', 'end': '2025-01-22T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: WFH : test'"}, {'title': 'C. Jaganprakash: Leave: test', 'start': '2025-02-05T00:00:00', 'end': '2025-02-05T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: Leave : test'"}, {'title': "New Year's Day:FESTIVAL", 'allDay': True, 'start': '2024-01-01T00:00:00', 'end': '2024-01-01T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'PONGAL:FESTIVAL', 'allDay': True, 'start': '2024-01-15T00:00:00', 'end': '2024-01-15T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Thiruvalluvar Day:FESTIVAL', 'allDay': True, 'start': '2024-01-16T00:00:00', 'end': '2024-01-16T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Republic Day:NATIONAL', 'allDay': True, 'start': '2024-01-26T00:00:00', 'end': '2024-01-26T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Holi:FESTIVAL', 'allDay': True, 'start': '2024-03-25T00:00:00', 'end': '2024-03-25T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Good Friday:FESTIVAL', 'allDay': True, 'start': '2024-03-29T00:00:00', 'end': '2024-03-29T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': "Telugu New Year's Day:FESTIVAL", 'allDay': True, 'start': '2024-04-09T00:00:00', 'end': '2024-04-09T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Ramzan:FESTIVAL', 'allDay': True, 'start': '2024-04-11T00:00:00', 'end': '2024-04-11T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Tamil New Year/BR Ambedkar Birthday:FESTIVAL', 'allDay': True, 'start': '2024-04-14T00:00:00', 'end': '2024-04-14T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'May Day:NATIONAL', 'allDay': True, 'start': '2024-05-01T00:00:00', 'end': '2024-05-01T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Bakrid:FESTIVAL', 'allDay': True, 'start': '2024-06-17T00:00:00', 'end': '2024-06-17T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'Independence Day:NATIONAL', 'allDay': True, 'start': '2024-08-15T00:00:00', 'end': '2024-08-15T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Krishna Jayanthi:FESTIVAL', 'allDay': True, 'start': '2024-08-26T00:00:00', 'end': '2024-08-26T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Vinayakar Chathurthi:FESTIVAL', 'allDay': True, 'start': '2024-09-07T00:00:00', 'end': '2024-09-07T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Milad-un-Nabi:FESTIVAL', 'allDay': True, 'start': '2024-09-16T00:00:00', 'end': '2024-09-16T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Gandhi Jayanthi,NATIONAL:MANDATORY', 'allDay': True, 'start': '2024-10-02T00:00:00', 'end': '2024-10-02T23:59:59', 'description': 'MANDATORY', 'color': 'gray'}, {'title': 'Ayutha Pooja:FESTIVAL', 'allDay': True, 'start': '2024-10-11T00:00:00', 'end': '2024-10-11T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Diwali:FESTIVAL', 'allDay': True, 'start': '2024-10-31T00:00:00', 'end': '2024-10-31T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'Christmas:FESTIVAL', 'allDay': True, 'start': '2024-12-25T00:00:00', 'end': '2024-12-25T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}] has been stored!!
+2025-01-28 13:20:01,669 - DEBUG - Session for ['Beeswax-SRE', 'EP', 'Intern', 'Linear-NOC', 'NOC', 'OPS-DEV', 'System-Security', 'TVP-DEV-DATA', 'TVP-SRE-DATA'], [{'Name': 'Jayanth', 'Email': 'jayanth_raveendran@comcast.com', 'Position': 'Manager'}, {'Name': 'Mukesh', 'Email': 'mukesh_kumar4@comcast.com', 'Position': 'Manager'}], ['jayanth_raveendran@comcast.com', 'mukesh_kumar4@comcast.com'], ['Beeswax-SRE', 'EP', 'Intern', 'Linear-NOC', 'NOC', 'OPS-DEV', 'System-Security', 'TVP-DEV-DATA', 'TVP-SRE-DATA'], [{'title': 'Sivasubramaniyan K: Leave: Test', 'start': '2024-12-18T00:00:00', 'end': '2024-12-18T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'Test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: Leave : Test'"}, {'title': 'Sivasubramaniyan K: WFH: test', 'start': '2025-01-25T00:00:00', 'end': '2025-01-25T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: WFH : test'"}, {'title': 'Sivasubramaniyan K: WFH: test', 'start': '2025-01-22T00:00:00', 'end': '2025-01-22T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: WFH : test'"}, {'title': 'Sivasubramaniyan K: Leave: test', 'start': '2025-02-05T00:00:00', 'end': '2025-02-05T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'Sivasubramaniyan K', 'team': 'TVP-SRE-DATA', 'comment': 'test', 'description': "Sivasubramaniyan K-TVP-SRE-DATA: Leave : test'"}, {'title': 'C. Jaganprakash: WFH: test', 'start': '2025-01-25T00:00:00', 'end': '2025-01-25T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: WFH : test'"}, {'title': 'C. Jaganprakash: WFH: test', 'start': '2025-01-22T00:00:00', 'end': '2025-01-22T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: WFH : test'"}, {'title': 'C. Jaganprakash: Leave: test', 'start': '2025-02-05T00:00:00', 'end': '2025-02-05T00:00:00', 'color': 'teal', 'allDay': True, 'user': 'C. Jaganprakash', 'team': 'NOC', 'comment': 'test', 'description': "C. Jaganprakash-NOC: Leave : test'"}, {'title': "New Year's Day:FESTIVAL", 'allDay': True, 'start': '2024-01-01T00:00:00', 'end': '2024-01-01T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'PONGAL:FESTIVAL', 'allDay': True, 'start': '2024-01-15T00:00:00', 'end': '2024-01-15T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Thiruvalluvar Day:FESTIVAL', 'allDay': True, 'start': '2024-01-16T00:00:00', 'end': '2024-01-16T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Republic Day:NATIONAL', 'allDay': True, 'start': '2024-01-26T00:00:00', 'end': '2024-01-26T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Holi:FESTIVAL', 'allDay': True, 'start': '2024-03-25T00:00:00', 'end': '2024-03-25T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Good Friday:FESTIVAL', 'allDay': True, 'start': '2024-03-29T00:00:00', 'end': '2024-03-29T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': "Telugu New Year's Day:FESTIVAL", 'allDay': True, 'start': '2024-04-09T00:00:00', 'end': '2024-04-09T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Ramzan:FESTIVAL', 'allDay': True, 'start': '2024-04-11T00:00:00', 'end': '2024-04-11T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Tamil New Year/BR Ambedkar Birthday:FESTIVAL', 'allDay': True, 'start': '2024-04-14T00:00:00', 'end': '2024-04-14T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'May Day:NATIONAL', 'allDay': True, 'start': '2024-05-01T00:00:00', 'end': '2024-05-01T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Bakrid:FESTIVAL', 'allDay': True, 'start': '2024-06-17T00:00:00', 'end': '2024-06-17T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'Independence Day:NATIONAL', 'allDay': True, 'start': '2024-08-15T00:00:00', 'end': '2024-08-15T23:59:59', 'description': 'NATIONAL', 'color': '#90a4ae'}, {'title': 'Krishna Jayanthi:FESTIVAL', 'allDay': True, 'start': '2024-08-26T00:00:00', 'end': '2024-08-26T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Vinayakar Chathurthi:FESTIVAL', 'allDay': True, 'start': '2024-09-07T00:00:00', 'end': '2024-09-07T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Milad-un-Nabi:FESTIVAL', 'allDay': True, 'start': '2024-09-16T00:00:00', 'end': '2024-09-16T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Gandhi Jayanthi,NATIONAL:MANDATORY', 'allDay': True, 'start': '2024-10-02T00:00:00', 'end': '2024-10-02T23:59:59', 'description': 'MANDATORY', 'color': 'gray'}, {'title': 'Ayutha Pooja:FESTIVAL', 'allDay': True, 'start': '2024-10-11T00:00:00', 'end': '2024-10-11T23:59:59', 'description': 'FESTIVAL', 'color': '#795548'}, {'title': 'Diwali:FESTIVAL', 'allDay': True, 'start': '2024-10-31T00:00:00', 'end': '2024-10-31T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}, {'title': 'Christmas:FESTIVAL', 'allDay': True, 'start': '2024-12-25T00:00:00', 'end': '2024-12-25T23:59:59', 'description': 'FESTIVAL', 'color': '#90a4ae'}] has been stored!!
+2025-01-28 13:20:01,671 - DEBUG - Logging into the manager console!!
+2025-01-28 13:20:01,671 - DEBUG - Logging into the manager console!!
+2025-01-28 13:20:01,672 - DEBUG - Rendering into manager_console.html!
+2025-01-28 13:20:01,672 - DEBUG - Rendering into manager_console.html!
+2025-01-28 13:20:40,452 - DEBUG - Schedule added successfully
+2025-01-28 13:20:40,452 - DEBUG - Schedule added successfully
+2025-01-28 13:22:10,471 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 13:22:12,812 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 13:22:12,812 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 13:22:12,812 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:12,812 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:13,257 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 13:22:13,257 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 13:22:13,258 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:13,258 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:13,709 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 13:22:13,709 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 13:22:13,711 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:13,711 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:14,147 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 13:22:14,147 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 13:22:14,148 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:14,148 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:14,592 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 13:22:14,592 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 13:22:14,594 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:14,594 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:15,149 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 13:22:15,149 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 13:22:15,153 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:15,153 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:15,604 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 13:22:15,604 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 13:22:15,607 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:15,607 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:16,205 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 13:22:16,205 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 13:22:16,208 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:16,208 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:16,805 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 13:22:16,805 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 13:22:16,806 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:16,806 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:17,314 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 13:22:17,314 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 13:22:17,315 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:17,315 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:17,750 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 13:22:17,750 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 13:22:17,752 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:17,752 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:18,255 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 13:22:18,255 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 13:22:18,255 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:18,255 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:18,836 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 13:22:18,836 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 13:22:18,837 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:18,837 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:19,280 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 13:22:19,280 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 13:22:19,280 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:19,280 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:19,811 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 13:22:19,811 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 13:22:19,811 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:19,811 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:20,375 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 13:22:20,375 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 13:22:20,376 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:20,376 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:20,821 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 13:22:20,821 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 13:22:20,821 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:20,821 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:21,326 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 13:22:21,326 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 13:22:21,327 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:21,327 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:21,825 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 13:22:21,825 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 13:22:21,825 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:21,825 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:22:21,825 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 13:22:21,825 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 13:35:45,243 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 13:35:47,437 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 13:35:47,437 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 13:35:47,439 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:47,439 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:47,907 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 13:35:47,907 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 13:35:47,908 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:47,908 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:48,370 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 13:35:48,370 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 13:35:48,372 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:48,372 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:48,835 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 13:35:48,835 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 13:35:48,836 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:48,836 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:49,350 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 13:35:49,350 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 13:35:49,353 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:49,353 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:49,841 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 13:35:49,841 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 13:35:49,842 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:49,842 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:50,310 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 13:35:50,310 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 13:35:50,311 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:50,311 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:50,777 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 13:35:50,777 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 13:35:50,779 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:50,779 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:51,251 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 13:35:51,251 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 13:35:51,255 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:51,255 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:51,725 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 13:35:51,725 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 13:35:51,726 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:51,726 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:52,217 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 13:35:52,217 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 13:35:52,217 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:52,217 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:52,694 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 13:35:52,694 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 13:35:52,694 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:52,694 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:53,212 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 13:35:53,212 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 13:35:53,212 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:53,212 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:53,687 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 13:35:53,687 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 13:35:53,687 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:53,687 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:54,157 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 13:35:54,157 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 13:35:54,157 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:54,157 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:54,624 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 13:35:54,624 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 13:35:54,625 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:54,625 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:55,100 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 13:35:55,100 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 13:35:55,101 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:55,101 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:55,568 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 13:35:55,568 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 13:35:55,568 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:55,568 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:56,080 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 13:35:56,080 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 13:35:56,080 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:56,080 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:56,081 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 13:35:56,081 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 13:35:57,721 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 13:35:59,700 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 13:35:59,700 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 13:35:59,700 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:35:59,700 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:00,352 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 13:36:00,352 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 13:36:00,352 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:00,352 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:00,792 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 13:36:00,792 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 13:36:00,792 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:00,792 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:01,231 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 13:36:01,231 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 13:36:01,232 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:01,232 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:01,674 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 13:36:01,674 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 13:36:01,674 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:01,674 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:02,114 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 13:36:02,114 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 13:36:02,115 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:02,115 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:02,564 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 13:36:02,564 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 13:36:02,565 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:02,565 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:03,020 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 13:36:03,020 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 13:36:03,021 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:03,021 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:03,459 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 13:36:03,459 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 13:36:03,460 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:03,460 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:03,976 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 13:36:03,976 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 13:36:03,977 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:03,977 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:04,417 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 13:36:04,417 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 13:36:04,419 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:04,419 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:04,884 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 13:36:04,884 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 13:36:04,886 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:04,886 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:05,332 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 13:36:05,332 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 13:36:05,333 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:05,333 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:05,827 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 13:36:05,827 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 13:36:05,828 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:05,828 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:06,267 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 13:36:06,267 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 13:36:06,268 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:06,268 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:06,708 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 13:36:06,708 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 13:36:06,709 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:06,709 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:07,164 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 13:36:07,164 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 13:36:07,165 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:07,165 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:07,605 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 13:36:07,605 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 13:36:07,606 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:07,606 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:08,074 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 13:36:08,074 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 13:36:08,074 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:08,074 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 13:36:08,075 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 13:36:08,075 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 14:12:36,014 - DEBUG - Schedule added successfully
+2025-01-28 14:12:36,014 - DEBUG - Schedule added successfully
+2025-01-28 14:35:07,054 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 14:35:09,041 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 14:35:09,041 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 14:35:09,041 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:09,041 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:09,522 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 14:35:09,522 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 14:35:09,523 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:09,523 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:09,996 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 14:35:09,996 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 14:35:09,997 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:09,997 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:10,466 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 14:35:10,466 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 14:35:10,467 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:10,467 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:10,937 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 14:35:10,937 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 14:35:10,937 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:10,937 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:11,402 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 14:35:11,402 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 14:35:11,403 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:11,403 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:11,877 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 14:35:11,877 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 14:35:11,878 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:11,878 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:12,363 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 14:35:12,363 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 14:35:12,363 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:12,363 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:12,847 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 14:35:12,847 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 14:35:12,847 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:12,847 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:13,647 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 14:35:13,647 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 14:35:13,647 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:13,647 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:14,122 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 14:35:14,122 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 14:35:14,122 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:14,122 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:14,598 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 14:35:14,598 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 14:35:14,598 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:14,598 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:15,070 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 14:35:15,070 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 14:35:15,070 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:15,070 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:15,534 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 14:35:15,534 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 14:35:15,535 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:15,535 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:16,020 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 14:35:16,020 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 14:35:16,021 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:16,021 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:16,491 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 14:35:16,491 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 14:35:16,491 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:16,491 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:16,961 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 14:35:16,961 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 14:35:16,961 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:16,961 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:17,434 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 14:35:17,434 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 14:35:17,434 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:17,434 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:17,900 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 14:35:17,900 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 14:35:17,900 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:17,900 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:17,900 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 14:35:17,900 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 14:35:56,736 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 14:35:58,737 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 14:35:58,737 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 14:35:58,737 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:58,737 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:59,208 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 14:35:59,208 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 14:35:59,209 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:59,209 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:59,682 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 14:35:59,682 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 14:35:59,682 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:35:59,682 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:00,151 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 14:36:00,151 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 14:36:00,152 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:00,152 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:00,622 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 14:36:00,622 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 14:36:00,622 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:00,622 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:01,093 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 14:36:01,093 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 14:36:01,094 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:01,094 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:01,568 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 14:36:01,568 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 14:36:01,568 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:01,568 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:02,048 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 14:36:02,048 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 14:36:02,048 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:02,048 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:02,510 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 14:36:02,510 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 14:36:02,511 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:02,511 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:02,980 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 14:36:02,980 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 14:36:02,981 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:02,981 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:03,449 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 14:36:03,449 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 14:36:03,449 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:03,449 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:03,925 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 14:36:03,925 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 14:36:03,926 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:03,926 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:04,405 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 14:36:04,405 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 14:36:04,405 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:04,405 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:04,874 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 14:36:04,874 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 14:36:04,874 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:04,874 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:05,343 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 14:36:05,343 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 14:36:05,344 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:05,344 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:05,817 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 14:36:05,817 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 14:36:05,818 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:05,818 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:06,290 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 14:36:06,290 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 14:36:06,291 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:06,291 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:06,775 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 14:36:06,775 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 14:36:06,775 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:06,775 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:07,261 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 14:36:07,261 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 14:36:07,261 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:07,261 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:36:07,262 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 14:36:07,262 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 14:45:16,287 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 14:45:18,181 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 14:45:18,181 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 14:45:18,183 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:18,183 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:18,624 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 14:45:18,624 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 14:45:18,627 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:18,627 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:19,066 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 14:45:19,066 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 14:45:19,067 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:19,067 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:19,565 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 14:45:19,565 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 14:45:19,567 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:19,567 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:20,020 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 14:45:20,020 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 14:45:20,021 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:20,021 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:20,455 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 14:45:20,455 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 14:45:20,457 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:20,457 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:20,950 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 14:45:20,950 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 14:45:20,952 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:20,952 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:21,394 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 14:45:21,394 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 14:45:21,395 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:21,395 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:22,271 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 14:45:22,271 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 14:45:22,274 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:22,274 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:22,716 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 14:45:22,716 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 14:45:22,717 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:22,717 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:23,158 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 14:45:23,158 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 14:45:23,158 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:23,158 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:23,592 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 14:45:23,592 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 14:45:23,592 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:23,592 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:24,031 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 14:45:24,031 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 14:45:24,031 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:24,031 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:24,475 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 14:45:24,475 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 14:45:24,475 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:24,475 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:24,915 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 14:45:24,915 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 14:45:24,916 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:24,916 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:25,356 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 14:45:25,356 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 14:45:25,356 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:25,356 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:25,794 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 14:45:25,794 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 14:45:25,795 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:25,795 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:26,234 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 14:45:26,234 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 14:45:26,234 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:26,234 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:26,686 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 14:45:26,686 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 14:45:26,686 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:26,686 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:26,687 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 14:45:26,687 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 14:45:27,827 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 14:45:29,735 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 14:45:29,735 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 14:45:29,735 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:29,735 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:30,168 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 14:45:30,168 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 14:45:30,168 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:30,168 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:30,603 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 14:45:30,603 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 14:45:30,603 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:30,603 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:31,034 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 14:45:31,034 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 14:45:31,034 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:31,034 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:31,471 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 14:45:31,471 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 14:45:31,472 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:31,472 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:31,908 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 14:45:31,908 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 14:45:31,908 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:31,908 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:32,349 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 14:45:32,349 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 14:45:32,350 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:32,350 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:32,851 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 14:45:32,851 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 14:45:32,851 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:32,851 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:33,310 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 14:45:33,310 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 14:45:33,311 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:33,311 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:33,760 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 14:45:33,760 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 14:45:33,761 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:33,761 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:34,262 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 14:45:34,262 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 14:45:34,263 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:34,263 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:34,703 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 14:45:34,703 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 14:45:34,703 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:34,703 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:35,139 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 14:45:35,139 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 14:45:35,139 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:35,139 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:35,587 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 14:45:35,587 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 14:45:35,587 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:35,587 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:36,046 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 14:45:36,046 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 14:45:36,046 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:36,046 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:36,488 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 14:45:36,488 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 14:45:36,488 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:36,488 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:36,930 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 14:45:36,930 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 14:45:36,930 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:36,930 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:37,366 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 14:45:37,366 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 14:45:37,367 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:37,367 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:37,807 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 14:45:37,807 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 14:45:37,807 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:37,807 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 14:45:37,807 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 14:45:37,807 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 15:06:20,310 - DEBUG - Failed to connect to MongoDB server mongodb://:@:27017/mongoDb: The empty string is not valid username.
+2025-01-28 15:06:20,319 - DEBUG - Attempting to connect to fallback MongoDB server mongodb://localhost:27017/mongoDb
+2025-01-28 15:06:42,473 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 15:06:50,549 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 15:08:24,019 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 15:08:26,037 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 15:08:26,037 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 15:08:26,038 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:26,038 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:26,543 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 15:08:26,543 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 15:08:26,544 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:26,544 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:27,013 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 15:08:27,013 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 15:08:27,014 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:27,014 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:27,492 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 15:08:27,492 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 15:08:27,492 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:27,492 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:27,973 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 15:08:27,973 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 15:08:27,973 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:27,973 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:28,467 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 15:08:28,467 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 15:08:28,468 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:28,468 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:28,939 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 15:08:28,939 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 15:08:28,940 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:28,940 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:29,406 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 15:08:29,406 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 15:08:29,407 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:29,407 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:29,893 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 15:08:29,893 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 15:08:29,894 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:29,894 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:30,443 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 15:08:30,443 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 15:08:30,443 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:30,443 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:30,960 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 15:08:30,960 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 15:08:30,960 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:30,960 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:31,431 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 15:08:31,431 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 15:08:31,431 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:31,431 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:31,903 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 15:08:31,903 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 15:08:31,903 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:31,903 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:32,397 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 15:08:32,397 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 15:08:32,397 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:32,397 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:32,981 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 15:08:32,981 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 15:08:32,982 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:32,982 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:33,453 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 15:08:33,453 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 15:08:33,454 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:33,454 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:33,938 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 15:08:33,938 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 15:08:33,939 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:33,939 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:34,409 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 15:08:34,409 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 15:08:34,410 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:34,410 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:34,880 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 15:08:34,880 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 15:08:34,881 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:34,881 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:34,881 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 15:08:34,881 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 15:08:35,976 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 15:08:37,980 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 15:08:37,980 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 15:08:37,980 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:37,980 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:38,457 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 15:08:38,457 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 15:08:38,458 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:38,458 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:38,917 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 15:08:38,917 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 15:08:38,917 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:38,917 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:39,378 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 15:08:39,378 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 15:08:39,379 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:39,379 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:39,834 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 15:08:39,834 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 15:08:39,834 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:39,834 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:40,308 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 15:08:40,308 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 15:08:40,308 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:40,308 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:40,773 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 15:08:40,773 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 15:08:40,774 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:40,774 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:41,234 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 15:08:41,234 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 15:08:41,234 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:41,234 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:41,690 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 15:08:41,690 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 15:08:41,690 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:41,690 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:42,150 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 15:08:42,150 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 15:08:42,150 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:42,150 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:42,608 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 15:08:42,608 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 15:08:42,608 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:42,608 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:43,056 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 15:08:43,056 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 15:08:43,056 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:43,056 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:43,520 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 15:08:43,520 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 15:08:43,521 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:43,521 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:43,966 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 15:08:43,966 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 15:08:43,966 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:43,966 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:44,404 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 15:08:44,404 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 15:08:44,404 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:44,404 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:44,849 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 15:08:44,849 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 15:08:44,849 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:44,849 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:45,302 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 15:08:45,302 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 15:08:45,303 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:45,303 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:45,750 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 15:08:45,750 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 15:08:45,751 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:45,751 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:46,213 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 15:08:46,213 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 15:08:46,213 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:46,213 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:08:46,213 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 15:08:46,213 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 15:11:55,382 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 15:14:19,701 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 15:14:22,212 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 15:14:22,212 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 15:14:22,213 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:22,213 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:22,731 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 15:14:22,731 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 15:14:22,732 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:22,732 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:23,206 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 15:14:23,206 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 15:14:23,207 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:23,207 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:23,677 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 15:14:23,677 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 15:14:23,679 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:23,679 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:24,150 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 15:14:24,150 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 15:14:24,151 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:24,151 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:24,620 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 15:14:24,620 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 15:14:24,622 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:24,622 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:25,103 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 15:14:25,103 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 15:14:25,103 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:25,103 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:25,895 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 15:14:25,895 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 15:14:25,896 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:25,896 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:26,366 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 15:14:26,366 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 15:14:26,366 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:26,366 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:26,832 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 15:14:26,832 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 15:14:26,832 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:26,832 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:27,772 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 15:14:27,772 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 15:14:27,772 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:27,772 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:28,248 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 15:14:28,248 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 15:14:28,248 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:28,248 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:28,724 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 15:14:28,724 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 15:14:28,724 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:28,724 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:29,184 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 15:14:29,184 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 15:14:29,185 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:29,185 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:29,659 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 15:14:29,659 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 15:14:29,660 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:29,660 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:30,134 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 15:14:30,134 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 15:14:30,135 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:30,135 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:30,599 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 15:14:30,599 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 15:14:30,599 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:30,599 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:31,078 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 15:14:31,078 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 15:14:31,078 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:31,078 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:31,543 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 15:14:31,543 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 15:14:31,543 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:31,543 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:31,543 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 15:14:31,543 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 15:14:32,481 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 15:14:34,987 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 15:14:34,987 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 15:14:34,987 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:34,987 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:35,455 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 15:14:35,455 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 15:14:35,455 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:35,455 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:35,921 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 15:14:35,921 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 15:14:35,921 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:35,921 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:36,385 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 15:14:36,385 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 15:14:36,385 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:36,385 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:36,847 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 15:14:36,847 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 15:14:36,847 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:36,847 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:37,317 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 15:14:37,317 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 15:14:37,317 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:37,317 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:37,781 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 15:14:37,781 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 15:14:37,782 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:37,782 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:38,256 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 15:14:38,256 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 15:14:38,256 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:38,256 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:38,719 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 15:14:38,719 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 15:14:38,719 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:38,719 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:39,200 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 15:14:39,200 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 15:14:39,201 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:39,201 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:39,720 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 15:14:39,720 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 15:14:39,721 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:39,721 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:40,219 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 15:14:40,219 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 15:14:40,219 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:40,219 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:40,746 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 15:14:40,746 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 15:14:40,747 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:40,747 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:41,229 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 15:14:41,229 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 15:14:41,230 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:41,230 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:41,698 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 15:14:41,698 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 15:14:41,698 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:41,698 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:42,257 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 15:14:42,257 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 15:14:42,257 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:42,257 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:42,901 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 15:14:42,901 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 15:14:42,901 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:42,901 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:43,424 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 15:14:43,424 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 15:14:43,425 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:43,425 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:43,934 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 15:14:43,934 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 15:14:43,934 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:43,934 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:14:43,935 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 15:14:43,935 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 15:16:06,046 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 15:16:17,077 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 15:16:19,994 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 15:16:19,994 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 15:16:19,994 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:19,994 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:20,463 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 15:16:20,463 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 15:16:20,463 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:20,463 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:20,942 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 15:16:20,942 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 15:16:20,942 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:20,942 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:21,435 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 15:16:21,435 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 15:16:21,436 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:21,436 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:21,917 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 15:16:21,917 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 15:16:21,917 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:21,917 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:22,391 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 15:16:22,391 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 15:16:22,391 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:22,391 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:22,866 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 15:16:22,866 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 15:16:22,867 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:22,867 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:23,343 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 15:16:23,343 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 15:16:23,343 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:23,343 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:23,843 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 15:16:23,843 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 15:16:23,844 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:23,844 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:24,317 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 15:16:24,317 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 15:16:24,317 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:24,317 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:24,786 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 15:16:24,786 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 15:16:24,786 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:24,786 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:25,262 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 15:16:25,262 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 15:16:25,263 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:25,263 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:25,731 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 15:16:25,731 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 15:16:25,731 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:25,731 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:26,202 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 15:16:26,202 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 15:16:26,202 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:26,202 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:26,675 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 15:16:26,675 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 15:16:26,675 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:26,675 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:27,144 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 15:16:27,144 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 15:16:27,144 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:27,144 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:27,629 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 15:16:27,629 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 15:16:27,630 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:27,630 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:28,095 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 15:16:28,095 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 15:16:28,096 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:28,096 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:28,571 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 15:16:28,571 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 15:16:28,572 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:28,572 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:28,572 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 15:16:28,572 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 15:16:30,179 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 15:16:32,762 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 15:16:32,762 - DEBUG - Updated holiday: New Year's Day on 2024-01-01
+2025-01-28 15:16:32,762 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:32,762 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:33,250 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 15:16:33,250 - DEBUG - Updated holiday: PONGAL on 2024-01-15
+2025-01-28 15:16:33,250 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:33,250 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:33,763 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 15:16:33,763 - DEBUG - Updated holiday: Thiruvalluvar Day on 2024-01-16
+2025-01-28 15:16:33,765 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:33,765 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:34,249 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 15:16:34,249 - DEBUG - Updated holiday: Republic Day on 2024-01-26
+2025-01-28 15:16:34,249 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:34,249 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:34,741 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 15:16:34,741 - DEBUG - Updated holiday: Holi on 2024-03-25
+2025-01-28 15:16:34,741 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:34,741 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:35,223 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 15:16:35,223 - DEBUG - Updated holiday: Good Friday on 2024-03-29
+2025-01-28 15:16:35,223 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:35,223 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:35,709 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 15:16:35,709 - DEBUG - Updated holiday: Telugu New Year's Day on 2024-04-09
+2025-01-28 15:16:35,709 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:35,709 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:36,200 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 15:16:36,200 - DEBUG - Updated holiday: Ramzan on 2024-04-11
+2025-01-28 15:16:36,200 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:36,200 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:36,710 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 15:16:36,710 - DEBUG - Updated holiday: Tamil New Year/BR Ambedkar Birthday on 2024-04-14
+2025-01-28 15:16:36,710 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:36,710 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:37,666 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 15:16:37,666 - DEBUG - Updated holiday: May Day on 2024-05-01
+2025-01-28 15:16:37,666 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:37,666 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:38,157 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 15:16:38,157 - DEBUG - Updated holiday: Bakrid on 2024-06-17
+2025-01-28 15:16:38,158 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:38,158 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:38,652 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 15:16:38,652 - DEBUG - Updated holiday: Independence Day on 2024-08-15
+2025-01-28 15:16:38,652 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:38,652 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:39,146 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 15:16:39,146 - DEBUG - Updated holiday: Krishna Jayanthi on 2024-08-26
+2025-01-28 15:16:39,146 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:39,146 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:39,651 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 15:16:39,651 - DEBUG - Updated holiday: Vinayakar Chathurthi on 2024-09-07
+2025-01-28 15:16:39,651 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:39,651 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:40,124 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 15:16:40,124 - DEBUG - Updated holiday: Milad-un-Nabi on 2024-09-16
+2025-01-28 15:16:40,124 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:40,124 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:40,593 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 15:16:40,593 - DEBUG - Updated holiday: Gandhi Jayanthi,NATIONAL on 2024-10-02
+2025-01-28 15:16:40,593 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:40,593 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:41,076 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 15:16:41,076 - DEBUG - Updated holiday: Ayutha Pooja on 2024-10-11
+2025-01-28 15:16:41,076 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:41,076 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:41,557 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 15:16:41,557 - DEBUG - Updated holiday: Diwali on 2024-10-31
+2025-01-28 15:16:41,557 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:41,557 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:42,043 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 15:16:42,043 - DEBUG - Updated holiday: Christmas on 2024-12-25
+2025-01-28 15:16:42,044 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:42,044 - DEBUG - Calling update_holiday_entry to seed the holidays as the app starts
+2025-01-28 15:16:42,044 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 15:16:42,044 - DEBUG - Seeding Mongo DB!!: None
+2025-01-28 15:52:41,371 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 15:53:28,965 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb
+2025-01-28 15:53:52,401 - DEBUG - Attempting to connect to mongodb://mongoUser:EEczLZF0Jx@apa-svc-6c3a4bd7-53c6-43ce-afdf-6668d507b898.apps.apa.comcast.net:27017/mongoDb

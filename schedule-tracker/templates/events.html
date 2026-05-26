@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Events</title>
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    .container { margin-top: 50px; }
+  </style>
+</head>
+<body>
+
+  <!-- Events Page Content -->
+  <div class="container">
+    <h2 class="text-center">Apply for Event</h2>
+    <div class="card mb-4">
+      <div class="card-body">
+        <form action="{{ url_for('apply_event')}}" method="post" id="applyForm">
+          <label for="date">Date</label>
+          <input type="date" id="date" name="date" class="form-control" required>
+          <label for="event">Option</label>
+          <select name="event" id="event" class="form-control">
+            <option value="WFH">WFH</option>
+            <option value="Leave">LEAVE</option>
+          </select>
+          <label for="comment">Comment</label>
+          <input type="text" id="comment" name="comment" class="form-control" required>
+          <input type="submit" value="Submit Request" class="btn btn-primary mt-3 w-100">
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
